@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>KleoGuard | Mercado ganadero</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <style>
+    :root { --cream:#f7f2e7; --paper:#fffdf8; --ink:#273225; --muted:#6c7167; --green:#50783f; --green-dark:#315436; --brown:#a8763c; --line:#d7c5a5; --blue:#315f8b; }
+    * { box-sizing:border-box; } body { margin:0; background:var(--cream); color:var(--ink); font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .wrap { max-width:1160px; margin:0 auto; padding:28px 20px 64px; } header { border-bottom:1px solid var(--line); padding:4px 0 22px; }
+    .eyebrow { margin:0 0 9px; color:#80562c; font-size:.78rem; font-weight:800; letter-spacing:.09em; text-transform:uppercase; } h1 { margin:0; font-size:clamp(2rem,5.4vw,4.2rem); line-height:1.04; letter-spacing:-.045em; }
+    .intro { max-width:790px; color:var(--muted); font-size:1.05rem; line-height:1.55; margin:14px 0 0; } nav { display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; }
+    nav a { color:var(--green-dark); text-decoration:none; font-weight:750; border:1px solid var(--line); background:rgba(255,255,255,.55); border-radius:999px; padding:8px 13px; font-size:.92rem; } nav a:hover,.active { background:var(--green); color:#fff; }
+    .notice { margin:24px 0; padding:15px 17px; background:#e8f0df; border-left:5px solid var(--green); border-radius:10px; color:#2d5732; line-height:1.5; }
+    .control { margin:18px 0 20px; padding:17px; border:1px solid var(--line); border-radius:16px; background:var(--paper); display:flex; gap:16px; align-items:end; flex-wrap:wrap; }
+    .control label { display:block; font-weight:750; font-size:.95rem; } select { display:block; margin-top:8px; min-width:min(100%,360px); padding:12px 14px; background:#fffdf8; border:2px solid var(--green); border-radius:10px; color:var(--ink); font:inherit; font-size:1rem; }
+    .source { color:var(--muted); line-height:1.45; font-size:.91rem; } .source a { color:#285f95; font-weight:700; }
+    .metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:13px; margin:20px 0 28px; }.metric { min-height:132px; padding:18px; border:1px solid var(--line); border-radius:16px; background:rgba(255,253,248,.86); box-shadow:0 8px 20px rgba(69,51,26,.06); }.metric span { display:block; color:#665b4b; font-size:.9rem; font-weight:650; line-height:1.3; }.metric strong { display:block; margin-top:12px; font-size:clamp(1.6rem,3.5vw,2.55rem); letter-spacing:-.045em; color:var(--green-dark); line-height:1; }.metric small { display:block; margin-top:8px; color:var(--muted); font-size:.78rem; }
+    section { margin-top:32px; } h2 { margin:0; font-size:clamp(1.45rem,3.2vw,2.25rem); letter-spacing:-.035em; }.section-copy { margin:8px 0 16px; color:var(--muted); line-height:1.5; }.chart-card { margin:16px 0 22px; padding:20px; border:1px solid var(--line); border-radius:18px; background:var(--paper); box-shadow:0 10px 24px rgba(69,51,26,.055); }.chart-card h3 { margin:0; font-size:1.14rem; }.chart-card p { color:var(--muted); font-size:.93rem; line-height:1.45; margin:6px 0 8px; }.chart { width:100%; height:390px; }
+    .facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:13px; margin:16px 0 4px; }.fact { background:rgba(255,253,248,.75); border:1px solid var(--line); padding:15px; border-radius:13px; }.fact strong { display:block; color:var(--green-dark); font-size:1.65rem; line-height:1.05; }.fact span { display:block; color:var(--muted); margin-top:5px; font-size:.9rem; }.method { margin-top:30px; padding:18px; border-radius:15px; background:#eee6d6; color:#5b5042; font-size:.92rem; line-height:1.55; } footer { margin-top:20px; color:var(--muted); font-size:.83rem; line-height:1.45; }
+    @media(max-width:760px) { .wrap { padding:20px 15px 42px; }.metrics { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }.metric { min-height:116px; padding:14px; }.facts { grid-template-columns:1fr; gap:9px; }.chart-card { padding:14px 10px 10px; border-radius:14px; }.chart { height:340px; } nav { gap:7px; } nav a { padding:7px 11px; } select { width:100%; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="eyebrow">KleoGuard · indicadores públicos</p>
+      <h1>📈 Mercado ganadero</h1>
+      <p class="intro">Precio público de ganado vivo por kilo, separado de la operación privada del campo. Sirve para mirar el mercado; no reemplaza una liquidación ni una cotización de compra o venta.</p>
+      <nav aria-label="Navegación"><a href="index.html">🐄 Trazabilidad comercial</a><a class="active" href="mercado.html">📈 Mercado público</a></nav>
+    </header>
+
+    <div class="notice"><strong>Datos reales publicados por ODEPA / AFECH.</strong><br>Fotografía descargada el 18 de agosto de 2026, con última jornada publicada el <strong>11 de agosto de 2026</strong>. Los valores son nominales, sin IVA, por kilo de ganado vivo. Esta página no mezcla estos indicadores con datos de tu campo.</div>
+
+    <div class="control">
+      <label for="category">Categoría de ganado
+        <select id="category" aria-label="Categoría de ganado"></select>
+      </label>
+      <div class="source">Fuente: <a href="https://www.odepa.gob.cl/contenidos-rubro/boletines-del-rubro/boletin-semanal-de-precios-asoc-gremial-de-ferias-ganaderas" target="_blank" rel="noopener">boletín semanal ODEPA / AFECH</a>.<br>Los datos se actualizan publicando una nueva fotografía del boletín; no se inventan precios si la fuente falla.</div>
+    </div>
+
+    <section aria-label="Indicadores de mercado">
+      <div class="metrics">
+        <article class="metric"><span>Referencia zona sur</span><strong id="regionalPrice">—</strong><small id="regionalDetail">—</small></article>
+        <article class="metric"><span>Promedio nacional publicado</span><strong id="nationalPrice">—</strong><small>Promedio simple de ferias del día</small></article>
+        <article class="metric"><span>Variación última jornada</span><strong id="variation">—</strong><small>Contra la jornada anterior publicada</small></article>
+        <article class="metric"><span>Última fecha de la categoría</span><strong id="date">—</strong><small>Según el boletín ODEPA / AFECH</small></article>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="historyTitle">Comportamiento publicado</h2>
+      <p class="section-copy">Cada punto corresponde al promedio nacional simple de las ferias incluidas por ODEPA / AFECH esa jornada. No es una proyección.</p>
+      <article class="chart-card"><h3>Precio promedio nacional por jornada</h3><p>Pesos chilenos por kilo, sin IVA.</p><div id="priceChart" class="chart" role="img" aria-label="Gráfico de precio promedio nacional por jornada"></div></article>
+    </section>
+
+    <section>
+      <h2>Lectura rápida para decidir</h2>
+      <p class="section-copy">Estas comparaciones usan la misma fuente y fecha de corte. Facilitan mirar dónde está cada categoría sin sugerir que una sea equivalente a otra.</p>
+      <div class="facts"><article class="fact"><strong id="highCategory">—</strong><span>Mayor referencia zona sur entre las categorías disponibles</span></article><article class="fact"><strong id="lowCategory">—</strong><span>Menor referencia zona sur entre las categorías disponibles</span></article><article class="fact"><strong>9</strong><span>Categorías públicas disponibles en esta vista</span></article></div>
+      <article class="chart-card"><h3>Referencia publicada por categoría</h3><p>Última referencia disponible de la zona sur; cuando no hay una feria de la zona, el sistema usaría el promedio nacional. En esta fotografía todas las categorías tienen referencia regional.</p><div id="compareChart" class="chart" role="img" aria-label="Gráfico de precios por categoría"></div></article>
+    </section>
+
+    <aside class="method"><strong>Cómo usar el mercado junto a la trazabilidad.</strong> El módulo Mercado sirve como referencia externa. La trazabilidad comercial muestra lo documentado en el campo. Sólo cuando una liquidación propia identifica categoría, kilos, fecha y contraparte se puede comparar contra el mercado de esa fecha y feria.</aside>
+    <footer>Fuente pública: ODEPA / AFECH, Boletín semanal de precios de ferias ganaderas. Corte mostrado: 11-08-2026. Página pública sin datos personales, documentos tributarios ni movimientos individuales.</footer>
+  </main>
+
+  <script>
+    const datos = {
+      'Novillo Gordo': {regional:2728, ferias:1, fecha:'11-08-2026', historial:[['24-06',2858],['25-06',2511],['26-06',2975],['27-06',2708],['29-06',2976],['30-06',3213],['05-08',2887],['06-08',2718],['07-08',2587],['08-08',2768],['10-08',2975],['11-08',3100]]},
+      'Novillo Engorda': {regional:3056, ferias:1, fecha:'11-08-2026', historial:[['24-06',2747],['25-06',3041],['26-06',2742],['27-06',2815],['29-06',2466],['30-06',2598],['05-08',2897],['06-08',2931],['07-08',2880],['08-08',2917],['10-08',2811],['11-08',3016]]},
+      'Vaca Gorda': {regional:2347, ferias:1, fecha:'11-08-2026', historial:[['24-06',2247],['25-06',2239],['26-06',1987],['27-06',2162],['29-06',2450],['30-06',2320],['05-08',2308],['06-08',2338],['07-08',2316],['08-08',2075],['10-08',2469],['11-08',2420]]},
+      'Vaca Engorda': {regional:1716, ferias:1, fecha:'11-08-2026', historial:[['24-06',1662],['25-06',1795],['26-06',1852],['27-06',1878],['29-06',1435],['30-06',1610],['05-08',1911],['06-08',1715],['07-08',1756],['08-08',1937],['10-08',1666],['11-08',1831]]},
+      'Vaquilla Gorda': {regional:2621, ferias:1, fecha:'11-08-2026', historial:[['24-06',2745],['25-06',2600],['26-06',2447],['27-06',2550],['29-06',2987],['30-06',2804],['05-08',2842],['06-08',2504],['07-08',2821],['08-08',2475],['10-08',2940],['11-08',2970]]},
+      'Vaquilla Engorda': {regional:2743, ferias:1, fecha:'11-08-2026', historial:[['24-06',2708],['25-06',2717],['26-06',2599],['27-06',2703],['29-06',2594],['30-06',2381],['05-08',2825],['06-08',2900],['07-08',2624],['08-08',2731],['10-08',2575],['11-08',2724]]},
+      'Toros': {regional:2395, ferias:1, fecha:'11-08-2026', historial:[['24-06',2277],['25-06',2550],['26-06',2367],['27-06',2382],['29-06',2292],['30-06',2212],['05-08',2751],['06-08',2490],['07-08',2445],['08-08',2540],['10-08',2580],['11-08',2708]]},
+      'Terneros': {regional:3347, ferias:1, fecha:'11-08-2026', historial:[['24-06',3255],['25-06',3272],['26-06',3087],['27-06',3169],['29-06',2843],['30-06',2940],['05-08',3241],['06-08',3208],['07-08',3219],['08-08',3192],['10-08',2999],['11-08',3225]]},
+      'Terneras': {regional:3494, ferias:1, fecha:'11-08-2026', historial:[['24-06',2798],['25-06',2877],['26-06',2779],['27-06',2729],['29-06',2523],['30-06',2737],['05-08',3086],['06-08',3209],['07-08',2943],['08-08',2816],['10-08',2508],['11-08',3083]]}
+    };
+    const pesos = new Intl.NumberFormat('es-CL',{style:'currency',currency:'CLP',maximumFractionDigits:0}); const entero = new Intl.NumberFormat('es-CL'); const categories = Object.keys(datos); const selector=document.getElementById('category'); const priceChart=echarts.init(document.getElementById('priceChart'),null,{renderer:'svg'}); const compareChart=echarts.init(document.getElementById('compareChart'),null,{renderer:'svg'});
+    categories.forEach(category=>selector.add(new Option(category,category))); selector.value='Novillo Gordo';
+    function price(value){return pesos.format(value)+'/kg';} function short(text,size){return text.length>size?text.slice(0,size-1)+'…':text;}
+    function render(category){ const current=datos[category], values=current.historial.map(item=>item[1]), national=values.at(-1), prior=values.at(-2), variation=((national/prior)-1)*100; document.getElementById('regionalPrice').textContent=price(current.regional); document.getElementById('regionalDetail').textContent=current.ferias+' feria de la zona sur reportando'; document.getElementById('nationalPrice').textContent=price(national); document.getElementById('variation').textContent=(variation>=0?'+':'')+variation.toFixed(1).replace('.',',')+'%'; document.getElementById('date').textContent=current.fecha; document.getElementById('historyTitle').textContent='Comportamiento publicado · '+category;
+      priceChart.setOption({animationDuration:350,color:['#50783f'],tooltip:{trigger:'axis',formatter:p=>'<strong>'+p[0].axisValue+'</strong><br>'+p[0].marker+' Promedio nacional: <b>'+price(p[0].value)+'</b>'},grid:{left:78,right:22,top:24,bottom:52},xAxis:{type:'category',data:current.historial.map(item=>item[0]),axisLabel:{color:'#656a62'}},yAxis:{type:'value',axisLabel:{color:'#656a62',formatter:value=>'$'+entero.format(value)},splitLine:{lineStyle:{color:'#e8dfcf'}}},series:[{name:'Promedio nacional',type:'line',data:values,smooth:.22,symbol:'circle',symbolSize:8,lineStyle:{width:3},areaStyle:{color:'rgba(80,120,63,.12)'}}]},{notMerge:true}); }
+    const ordered=categories.map(category=>[category,datos[category].regional]).sort((a,b)=>b[1]-a[1]); document.getElementById('highCategory').textContent=ordered[0][0]+' · '+price(ordered[0][1]); document.getElementById('lowCategory').textContent=ordered.at(-1)[0]+' · '+price(ordered.at(-1)[1]); compareChart.setOption({color:['#a8763c'],tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:p=>'<strong>'+p[0].name+'</strong><br>'+p[0].marker+' Referencia zona sur: <b>'+price(p[0].value)+'</b>'},grid:{left:small()?116:170,right:34,top:10,bottom:26},xAxis:{type:'value',axisLabel:{color:'#656a62',formatter:value=>'$'+entero.format(value)},splitLine:{lineStyle:{color:'#e8dfcf'}}},yAxis:{type:'category',inverse:true,data:ordered.map(item=>item[0]),axisLabel:{color:'#434840'},axisTick:{show:false},axisLine:{show:false}},series:[{type:'bar',data:ordered.map(item=>item[1]),barMaxWidth:30,label:{show:true,position:'right',color:'#3e493b',formatter:p=>price(p.value)}}]});
+    function small(){return window.innerWidth<620;} selector.addEventListener('change',event=>render(event.target.value)); render(selector.value); window.addEventListener('resize',()=>{priceChart.resize();compareChart.resize();});
+  </script>
+</body>
+</html>
