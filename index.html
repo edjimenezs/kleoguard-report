@@ -1,28 +1,114 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow">
-<title>KleoGuard | Trazabilidad comercial</title>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-<style>
-:root{--ink:#263025;--muted:#697167;--cream:#f7f1e6;--paper:#fffdf8;--green:#527640;--deep:#345435;--brown:#a3713a;--sand:#eadcc3;--line:#cfbc9b;--blue:#366f8c;--ok:#e5efe0}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:17px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}.shell{max-width:1240px;margin:auto;padding:0 24px}header{background:linear-gradient(135deg,#2f4e31,#496c3c);color:#fffdf8;padding:18px 0 31px;box-shadow:0 2px 14px #2b3d2735}.topline{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:14px;color:#e2ecd8}.brand{font-weight:850;color:#fff;font-size:20px}.brand span{color:#d8e8bc}.eyebrow{margin:35px 0 7px;color:#d8e8bc;text-transform:uppercase;letter-spacing:.095em;font-size:13px;font-weight:800}h1{font-size:clamp(32px,5.2vw,55px);line-height:1.05;letter-spacing:-.04em;margin:0;max-width:800px}.hero-copy{margin:13px 0 0;max-width:760px;color:#eef4e9;font-size:clamp(16px,2vw,19px)}nav{display:flex;overflow-x:auto;gap:9px;padding:18px 0 0;scrollbar-width:none}nav::-webkit-scrollbar{display:none}nav a{white-space:nowrap;color:#fff;text-decoration:none;border:1px solid #d8e8bc75;border-radius:999px;padding:9px 16px;font-weight:750;font-size:15px}nav a:first-child{background:#fffdf8;color:var(--deep);border-color:#fff}main{padding:26px 0 54px}.notice{display:flex;gap:12px;align-items:flex-start;background:var(--ok);border:1px solid #cce0c3;border-left:6px solid var(--green);border-radius:13px;padding:16px 18px;margin:0 0 26px;color:#244c2b}.notice strong{display:block}.notice p{margin:2px 0 0;font-size:15px;color:#426147}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:30px 0 14px}h2{font-size:clamp(24px,3vw,31px);letter-spacing:-.025em;margin:0}.sub{margin:3px 0 0;color:var(--muted);font-size:15px}.updated{color:var(--muted);font-size:14px;white-space:nowrap}.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.kpi{min-width:0;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 6px 18px #583a1320}.kpi .label{min-height:46px;color:#615849;font-size:15px;font-weight:800;line-height:1.25}.kpi strong{display:block;margin-top:8px;color:var(--deep);font-size:clamp(29px,3.5vw,42px);letter-spacing:-.05em;line-height:1.1}.kpi small{display:block;color:var(--muted);margin-top:7px;font-size:13px}.flow-strip{display:grid;grid-template-columns:1fr 1fr 1fr;background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:16px 0 22px}.flow-item{padding:16px 20px}.flow-item+.flow-item{border-left:1px solid var(--sand)}.flow-item b{display:block;color:var(--muted);font-size:14px}.flow-item strong{display:block;font-size:24px;margin-top:3px;letter-spacing:-.025em}.purchase{color:var(--brown)}.sale{color:var(--deep)}.net{color:var(--blue)}.dashboard-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(320px,1fr);gap:18px}.panel{min-width:0;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:19px;box-shadow:0 5px 15px #583a1314}.panel h3{margin:0;font-size:21px;letter-spacing:-.02em}.panel p{margin:4px 0 9px;color:var(--muted);font-size:14px}.chart{width:100%;height:330px}.table-wrap{overflow-x:auto;border:1px solid var(--sand);border-radius:13px;background:var(--paper)}table{border-collapse:collapse;min-width:680px;width:100%;font-size:15px}th,td{padding:12px 14px;border-bottom:1px solid #eee4d4;text-align:right;white-space:nowrap}th:first-child,td:first-child{text-align:left}th{color:#655a4b;background:#f5eddf;font-size:13px;letter-spacing:.02em;text-transform:uppercase}tbody tr:last-child td{border-bottom:0}.green{color:var(--deep);font-weight:750}.brown{color:#81572d;font-weight:750}.status-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.status{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:17px}.status-icon{font-size:24px}.status b{display:block;margin-top:7px}.status p{margin:4px 0 0;color:var(--muted);font-size:14px}footer{border-top:1px solid var(--sand);color:#667064;font-size:14px;padding:24px 0 44px}footer strong{color:#465044}@media(max-width:850px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.dashboard-grid{grid-template-columns:1fr}.flow-strip{grid-template-columns:1fr}.flow-item+.flow-item{border-left:0;border-top:1px solid var(--sand)}}@media(max-width:560px){body{font-size:16px}.shell{padding-left:15px;padding-right:15px}header{padding-bottom:24px}.topline .period{display:none}.eyebrow{margin-top:27px}.hero-copy{font-size:16px}nav a{padding:9px 14px}main{padding-top:19px}.notice{padding:14px;font-size:15px}.section-head{align-items:flex-start;flex-direction:column;gap:2px;margin-top:25px}.updated{white-space:normal}.kpis{gap:10px}.kpi{padding:15px;border-radius:14px}.kpi .label{min-height:39px;font-size:13px}.kpi strong{font-size:29px}.kpi small{font-size:12px}.panel{padding:15px;border-radius:14px}.chart{height:280px}.status-grid{grid-template-columns:1fr}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>KleoGuard | Trazabilidad comercial</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <style>
+    :root { --cream:#f7f2e7; --paper:#fffdf8; --ink:#273225; --muted:#6c7167; --green:#50783f; --green-dark:#315436; --brown:#a8763c; --line:#d7c5a5; --blue:#315f8b; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--cream); color:var(--ink); font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .wrap { max-width:1160px; margin:0 auto; padding:28px 20px 64px; }
+    header { border-bottom:1px solid var(--line); padding:4px 0 22px; }
+    .eyebrow { margin:0 0 9px; color:#80562c; font-size:.78rem; font-weight:800; letter-spacing:.09em; text-transform:uppercase; }
+    h1 { margin:0; max-width:820px; font-size:clamp(2rem,5.4vw,4.2rem); line-height:1.04; letter-spacing:-.045em; }
+    .intro { max-width:760px; color:var(--muted); font-size:1.05rem; line-height:1.55; margin:14px 0 0; }
+    nav { display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; }
+    nav a { color:var(--green-dark); text-decoration:none; font-weight:750; border:1px solid var(--line); background:rgba(255,255,255,.55); border-radius:999px; padding:8px 13px; font-size:.92rem; }
+    nav a:hover { background:var(--green); color:#fff; }
+    .notice { margin:24px 0; padding:15px 17px; background:#e8f0df; border-left:5px solid var(--green); border-radius:10px; color:#2d5732; line-height:1.48; }
+    .metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:13px; margin:20px 0 28px; }
+    .metric { min-height:132px; padding:18px; border:1px solid var(--line); border-radius:16px; background:rgba(255,253,248,.86); box-shadow:0 8px 20px rgba(69,51,26,.06); }
+    .metric span { display:block; color:#665b4b; font-size:.9rem; font-weight:650; line-height:1.3; }
+    .metric strong { display:block; margin-top:12px; font-size:clamp(1.75rem,3.8vw,2.7rem); letter-spacing:-.045em; color:var(--green-dark); line-height:1; }
+    section { scroll-margin-top:20px; margin-top:32px; }
+    h2 { margin:0; font-size:clamp(1.45rem,3.2vw,2.25rem); letter-spacing:-.035em; }
+    .section-copy { margin:8px 0 16px; color:var(--muted); line-height:1.5; }
+    .chart-card { margin:16px 0 22px; padding:20px; border:1px solid var(--line); border-radius:18px; background:var(--paper); box-shadow:0 10px 24px rgba(69,51,26,.055); }
+    .chart-card h3 { margin:0; font-size:1.14rem; }
+    .chart-card p { color:var(--muted); font-size:.93rem; line-height:1.45; margin:6px 0 8px; }
+    .chart { width:100%; height:370px; }
+    .chart.tall { height:420px; }
+    .facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:13px; margin:16px 0 4px; }
+    .fact { background:rgba(255,253,248,.75); border:1px solid var(--line); padding:15px; border-radius:13px; }
+    .fact strong { display:block; color:var(--green-dark); font-size:1.65rem; line-height:1.05; }
+    .fact span { display:block; color:var(--muted); margin-top:5px; font-size:.9rem; }
+    .method { margin-top:30px; padding:18px; border-radius:15px; background:#eee6d6; color:#5b5042; font-size:.92rem; line-height:1.55; }
+    footer { margin-top:20px; color:var(--muted); font-size:.83rem; line-height:1.45; }
+    @media (max-width:760px) { .wrap { padding:20px 15px 42px; } .metrics { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; } .metric { min-height:116px; padding:14px; } .facts { grid-template-columns:1fr; gap:9px; } .chart-card { padding:14px 10px 10px; border-radius:14px; } .chart { height:340px; } .chart.tall { height:390px; } nav { gap:7px; } nav a { padding:7px 11px; } }
+  </style>
 </head>
 <body>
-<header><div class="shell"><div class="topline"><div class="brand">🐄 Kleo<span>Guard</span></div><div class="period">Reporte familiar · información agregada</div></div><div class="eyebrow">Trazabilidad comercial</div><h1>Compras y ventas de ganado, en una sola vista.</h1><p class="hero-copy">Resumen simple de operaciones respaldadas por documentos tributarios y correos operativos. Pensado para revisar desde el teléfono.</p><nav aria-label="Secciones"><a href="#resumen">Resumen</a><a href="#flujo">Flujo comercial</a><a href="#detalle">Detalle mensual</a><a href="#estado">Estado del cruce</a></nav></div></header>
-<main class="shell">
-<section id="resumen"><div class="notice"><span>✓</span><div><strong>Datos con respaldo documental compatible</strong><p>La conciliación aún no equivale a trazabilidad animal individual: para eso falta validar lote o DIIO con guía SAG.</p></div></div><div class="section-head"><div><h2>Resumen del período</h2><p class="sub">Noviembre de 2025 a abril de 2026</p></div><span class="updated">Actualizado: 17 ago. 2026</span></div><div class="kpis"><article class="kpi"><div class="label">Documentos comerciales confirmados</div><strong>17</strong><small>con respaldo tributario y operativo</small></article><article class="kpi"><div class="label">Cabezas con respaldo explícito</div><strong>326</strong><small>informadas en documentos</small></article><article class="kpi"><div class="label">Kilos con respaldo explícito</div><strong>116.027 <span style="font-size:.62em">kg</span></strong><small>informados en documentos</small></article><article class="kpi"><div class="label">Precio medio ponderado declarado</div><strong>$2.241<span style="font-size:.62em">/kg</span></strong><small>sobre filas con kilos y valor</small></article></div><div class="flow-strip"><div class="flow-item"><b>Compras tributarias</b><strong class="purchase">$93.335.621</strong></div><div class="flow-item"><b>Ventas tributarias</b><strong class="sale">$209.534.771</strong></div><div class="flow-item"><b>Flujo neto documentado</b><strong class="net">$116.199.150</strong></div></div></section>
-<section id="flujo"><div class="section-head"><div><h2>Flujo comercial confirmado</h2><p class="sub">Montos del RCV que también aparecen en correo o PDF.</p></div></div><div class="dashboard-grid"><article class="panel"><h3>Compras y ventas por mes</h3><p>Valores tributarios en pesos chilenos; no representa utilidad ni margen.</p><div id="money" class="chart"></div></article><article class="panel"><h3>Volumen declarado</h3><p>Sólo incorpora documentos que declaran cabezas o kilos expresamente.</p><div id="volume" class="chart"></div></article></div></section>
-<section id="detalle"><div class="section-head"><div><h2>Detalle mensual</h2><p class="sub">Resumen de indicadores publicados, sin exponer documentos individuales.</p></div></div><div class="table-wrap"><table><thead><tr><th>Período</th><th>Compra tributaria</th><th>Venta tributaria</th><th>Cabezas declaradas</th><th>Kilos declarados</th></tr></thead><tbody id="monthly-table"></tbody></table></div></section>
-<section id="estado"><div class="section-head"><div><h2>Cómo leer esta información</h2><p class="sub">Cada capa suma evidencia; la última validación sigue siendo operativa.</p></div></div><div class="status-grid"><article class="status"><span class="status-icon">📄</span><b>Respaldo tributario</b><p>El RCV confirma que el documento existe y su monto declarado.</p></article><article class="status"><span class="status-icon">✉️</span><b>Respaldo de correo</b><p>Correo, PDF o XML permite asociar la operación con la contraparte y el detalle disponible.</p></article><article class="status"><span class="status-icon">🐄</span><b>Validación SAG / DIIO</b><p>Un animal específico requiere guía, lote o DIIO verificable. No se infiere automáticamente.</p></article></div></section>
-</main>
-<footer class="shell"><strong>KleoGuard · Reporte familiar.</strong> Fuente: conciliación local entre SII y respaldo operacional. Informativo; no sustituye revisión contable, tributaria, sanitaria ni una conciliación animal individual.</footer>
-<script>
-const months=['Nov 2025','Dic 2025','Ene 2026','Feb 2026','Mar 2026','Abr 2026'],compra=[44077076,3435485,29926064,2207724,12645926,1043346],venta=[0,0,30050326,88616314,74089851,16778280],cabezas=[57,4,68,79,92,26],kilos=[15513,1583,25035,32469,34219,7208],clp=new Intl.NumberFormat('es-CL',{style:'currency',currency:'CLP',maximumFractionDigits:0}),integer=new Intl.NumberFormat('es-CL');
-document.getElementById('monthly-table').innerHTML=months.map(function(month,i){return '<tr><td>'+month+'</td><td class="brown">'+clp.format(compra[i])+'</td><td class="green">'+clp.format(venta[i])+'</td><td>'+integer.format(cabezas[i])+'</td><td>'+integer.format(kilos[i])+' kg</td></tr>'}).join('');
-const axes={axisLine:{lineStyle:{color:'#b8ad98'}},axisLabel:{color:'#657164',fontSize:13},splitLine:{lineStyle:{color:'#eadfce'}}},base={animationDuration:450,tooltip:{trigger:'axis',backgroundColor:'#fffdf8',borderColor:'#bca57f',padding:12,textStyle:{color:'#263025',fontSize:14},axisPointer:{type:'shadow'}},grid:{left:62,right:22,top:30,bottom:58,containLabel:false},xAxis:{type:'category',data:months,axisLine:axes.axisLine,axisLabel:{color:'#657164',fontSize:13,interval:0}},legend:{bottom:4,textStyle:{color:'#586356',fontSize:14},itemGap:16}};
-const money=echarts.init(document.getElementById('money'));money.setOption(Object.assign({},base,{yAxis:{type:'value',axisLine:axes.axisLine,splitLine:axes.splitLine,axisLabel:{color:'#657164',fontSize:13,formatter:function(v){return v>=1000000?'$'+Math.round(v/1000000)+' M':'$'+integer.format(v)}}},tooltip:Object.assign({},base.tooltip,{formatter:function(items){return items[0].axisValue+'<br>'+items.map(function(x){return x.marker+' '+x.seriesName+': <b>'+clp.format(x.value)+'</b>'}).join('<br>')}}),series:[{name:'Compra tributaria',type:'bar',barMaxWidth:34,data:compra,itemStyle:{color:'#a3713a',borderRadius:[5,5,0,0]}},{name:'Venta tributaria',type:'bar',barMaxWidth:34,data:venta,itemStyle:{color:'#527640',borderRadius:[5,5,0,0]}}]}));
-const volume=echarts.init(document.getElementById('volume'));volume.setOption(Object.assign({},base,{grid:{left:49,right:48,top:30,bottom:58},yAxis:[{type:'value',name:'Cabezas',nameTextStyle:{color:'#657164',fontSize:13},axisLine:axes.axisLine,axisLabel:axes.axisLabel,splitLine:axes.splitLine},{type:'value',name:'Kilos',nameTextStyle:{color:'#657164',fontSize:13},axisLine:axes.axisLine,axisLabel:{color:'#657164',fontSize:13,formatter:function(v){return v>=1000?Math.round(v/1000)+' mil':integer.format(v)}},splitLine:{show:false}}],tooltip:Object.assign({},base.tooltip,{formatter:function(items){return items[0].axisValue+'<br>'+items.map(function(x){return x.marker+' '+x.seriesName+': <b>'+integer.format(x.value)+' '+(x.seriesName==='Kilos declarados'?'kg':'cabezas')+'</b>'}).join('<br>')}}),series:[{name:'Cabezas declaradas',type:'bar',barMaxWidth:28,data:cabezas,itemStyle:{color:'#527640',borderRadius:[5,5,0,0]}},{name:'Kilos declarados',type:'line',yAxisIndex:1,data:kilos,smooth:.3,symbol:'circle',symbolSize:8,lineStyle:{width:3,color:'#366f8c'},itemStyle:{color:'#366f8c'}}]}));
-addEventListener('resize',function(){money.resize();volume.resize()});
-</script>
-</body></html>
+  <main class="wrap">
+    <header>
+      <p class="eyebrow">KleoGuard · resumen familiar</p>
+      <h1>🐄 Trazabilidad comercial del ganado</h1>
+      <p class="intro">Indicadores consolidados de documentos tributarios, correos operativos y movimientos SAG registrados. Hecho para revisar desde el teléfono, sin exponer archivos ni datos individuales.</p>
+      <nav aria-label="Ir a sección"><a href="#flujo">Flujo comercial</a><a href="#origenes">Ferias de origen</a><a href="#destinos">Destinos de venta</a><a href="#razas">Razas</a></nav>
+    </header>
+
+    <div class="notice"><strong>Período de esta vista: 21 de noviembre de 2025 a 29 de abril de 2026.</strong><br>Las entradas y salidas SAG son movimientos registrados, no una afirmación de existencia actual. La conciliación animal individual requiere validar lote o DIIO cuando esté disponible.</div>
+
+    <section aria-label="Indicadores principales">
+      <div class="metrics">
+        <article class="metric"><span>Cruces SII ↔ correo confirmados</span><strong>17</strong></article>
+        <article class="metric"><span>Cabezas con respaldo explícito</span><strong>326</strong></article>
+        <article class="metric"><span>Kilos con respaldo explícito</span><strong>116.027 kg</strong></article>
+        <article class="metric"><span>Precio medio ponderado declarado</span><strong>$2.241/kg</strong></article>
+      </div>
+    </section>
+
+    <section id="flujo">
+      <h2>Flujo comercial confirmado</h2>
+      <p class="section-copy">Montos de compras y ventas del RCV que también aparecen respaldados en correo o documento operativo.</p>
+      <article class="chart-card"><h3>Compras y ventas por mes</h3><p>Valores tributarios en pesos chilenos. Las notas de crédito se consideran según su efecto tributario.</p><div id="flowChart" class="chart" role="img" aria-label="Gráfico de compras y ventas mensuales"></div></article>
+      <article class="chart-card"><h3>Cabezas y kilos declarados en documentos</h3><p>Incluye sólo filas donde el PDF o XML menciona explícitamente cantidad de animales o kilos.</p><div id="volumeChart" class="chart" role="img" aria-label="Gráfico de cabezas y kilos declarados"></div></article>
+    </section>
+
+    <section id="origenes">
+      <h2>Procedencia de ingresos</h2>
+      <p class="section-copy">Ferias y orígenes informados en movimientos SAG registrados dentro del período.</p>
+      <div class="facts"><article class="fact"><strong>220</strong><span>Ingresos SAG registrados</span></article><article class="fact"><strong>6</strong><span>Orígenes identificados</span></article><article class="fact"><strong>91</strong><span>Mayor origen: Tattersall Osorno</span></article></div>
+      <article class="chart-card"><h3>Animales ingresados por feria u origen</h3><p>Cuenta movimientos de ingreso registrados; no corresponde a existencia actual.</p><div id="originChart" class="chart tall" role="img" aria-label="Gráfico de animales ingresados por feria de origen"></div></article>
+    </section>
+
+    <section id="destinos">
+      <h2>Destino de ventas y egresos</h2>
+      <p class="section-copy">Ferias, frigoríficos y otros destinos informados en movimientos SAG registrados dentro del período.</p>
+      <div class="facts"><article class="fact"><strong>349</strong><span>Egresos SAG registrados</span></article><article class="fact"><strong>4</strong><span>Destinos identificados</span></article><article class="fact"><strong>210</strong><span>Mayor destino: Tattersall Puerto Varas</span></article></div>
+      <article class="chart-card"><h3>Animales egresados por destino</h3><p>Incluye salidas a feria, frigorífico y otros destinos registrados. No infiere precio ni estado de pago.</p><div id="destinationChart" class="chart" role="img" aria-label="Gráfico de animales egresados por destino"></div></article>
+    </section>
+
+    <section id="razas">
+      <h2>Razas informadas</h2>
+      <p class="section-copy">Animales únicos con raza indicada en los movimientos SAG del período. Es una lectura documental, no un censo actual.</p>
+      <article class="chart-card"><h3>Distribución de raza registrada</h3><p>Se muestran las razas con información suficiente para ser agrupadas.</p><div id="breedChart" class="chart tall" role="img" aria-label="Gráfico de razas informadas en movimientos SAG"></div></article>
+    </section>
+
+    <aside class="method"><strong>Cómo leer esta vista.</strong> SII aporta el registro tributario; correo y documentos operativos ayudan a identificar cabezas, kilos y contraparte; SAG aporta movimientos declarados. Un mismo animal sólo queda trazado de punta a punta si el documento contiene DIIO o un lote verificable.</aside>
+    <footer>Actualizado con datos locales consolidados el 17 de agosto de 2026. Página pública con indicadores agregados: no contiene correos, facturas, RUT, DIIO, archivos adjuntos ni documentos individuales.</footer>
+  </main>
+
+  <script>
+    const meses = ['2025-11','2025-12','2026-01','2026-02','2026-03','2026-04'];
+    const compras = [44077076,3435485,29926064,2207724,12645926,1043346];
+    const ventas = [0,0,30050326,88616314,74089851,16778280];
+    const cabezas = [57,4,68,79,92,26];
+    const kilos = [15513,1583,25035,32469,34219,7208];
+    const origenes = [['Feria Tattersall Remates S.A. (Osorno)',91],['Feria Remehue Ltda. (Osorno)',37],['Fegosa (Purranque)',36],['Fegosa (Osorno)',35],['Feria Tattersall Remates S.A. (Río Bueno)',20],['Fundo Remehue',1]];
+    const destinos = [['Feria Tattersall Remates S.A. (Puerto Varas)',210],['Frigorífico Angol',71],['Fegosa (Osorno)',42],['Feria Tattersall Remates S.A. (Río Bueno)',26]];
+    const razas = [['Overo Colorado (Clavel Alemán)',28],['Angus Rojo',19],['Híbrido',18],['Angus Negro',13],['Overo Negro',13],['Clavel Chileno',9],['Holstein Friesian',9],['Charolais',7],['Montbéliarde',7],['Criollo o mestizo',3],['Limousin',1]];
+    const peso = new Intl.NumberFormat('es-CL', { style:'currency', currency:'CLP', maximumFractionDigits:0 });
+    const entero = new Intl.NumberFormat('es-CL'); const charts = []; const small = () => window.innerWidth < 620;
+    function chartBase(id) { const c = echarts.init(document.getElementById(id), null, {renderer:'svg'}); charts.push(c); return c; }
+    function labelCorto(texto, largo) { return texto.length > largo ? texto.slice(0, largo - 1) + '…' : texto; }
+    function monthlyMoney() { const chart = chartBase('flowChart'); chart.setOption({ color:['#a8763c','#50783f'], tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:p => '<strong>' + p[0].axisValue + '</strong><br>' + p.map(x => x.marker + ' ' + x.seriesName + ': <b>' + peso.format(x.value) + '</b>').join('<br>')}, legend:{bottom:0,textStyle:{color:'#4e514b'}}, grid:{left:small()?66:92,right:20,top:24,bottom:62}, xAxis:{type:'category',data:meses,axisLabel:{color:'#656a62'}}, yAxis:{type:'value',axisLabel:{color:'#656a62',formatter:v => '$' + entero.format(v)},splitLine:{lineStyle:{color:'#e8dfcf'}}}, series:[{name:'Compra tributaria',type:'bar',data:compras,barMaxWidth:46},{name:'Venta tributaria',type:'bar',data:ventas,barMaxWidth:46}]}); }
+    function monthlyVolume() { const chart = chartBase('volumeChart'); chart.setOption({ color:['#50783f','#bd8c45'], tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:p => '<strong>' + p[0].axisValue + '</strong><br>' + p.map(x => x.marker + ' ' + x.seriesName + ': <b>' + entero.format(x.value) + (x.seriesName === 'Cabezas declaradas' ? ' cabezas' : ' kg') + '</b>').join('<br>')}, legend:{bottom:0,textStyle:{color:'#4e514b'}}, grid:{left:small()?58:78,right:20,top:24,bottom:62}, xAxis:{type:'category',data:meses,axisLabel:{color:'#656a62'}}, yAxis:[{type:'value',name:'Cabezas',axisLabel:{color:'#656a62',formatter:v=>entero.format(v)},splitLine:{lineStyle:{color:'#e8dfcf'}}},{type:'value',name:'Kg',axisLabel:{color:'#656a62',formatter:v=>entero.format(v)},splitLine:{show:false}}], series:[{name:'Cabezas declaradas',type:'bar',data:cabezas,barMaxWidth:38},{name:'Kilos declarados',type:'bar',yAxisIndex:1,data:kilos,barMaxWidth:38}]}); }
+    function horizontal(id, filas, color, unidad) { const chart = chartBase(id); const largo = small() ? 20 : 34; const left = small() ? 126 : 230; chart.setOption({ color:[color], tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:p => '<strong>' + p[0].name + '</strong><br>' + p[0].marker + ' ' + entero.format(p[0].value) + ' ' + unidad}, grid:{left:left,right:32,top:10,bottom:26}, xAxis:{type:'value',axisLabel:{color:'#656a62',formatter:v=>entero.format(v)},splitLine:{lineStyle:{color:'#e8dfcf'}}}, yAxis:{type:'category',inverse:true,data:filas.map(f=>f[0]),axisLabel:{color:'#434840',fontSize:small()?10:12,formatter:v=>labelCorto(v,largo)},axisTick:{show:false},axisLine:{show:false}}, series:[{name:unidad,type:'bar',data:filas.map(f=>f[1]),barMaxWidth:34,label:{show:true,position:'right',color:'#3e493b',formatter:p=>entero.format(p.value)}}]}); }
+    monthlyMoney(); monthlyVolume(); horizontal('originChart',origenes,'#50783f','animales'); horizontal('destinationChart',destinos,'#a8763c','animales'); horizontal('breedChart',razas,'#315f8b','animales');
+    window.addEventListener('resize', () => charts.forEach(c => c.resize()));
+  </script>
+</body>
+</html>
