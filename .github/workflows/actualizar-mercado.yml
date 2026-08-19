@@ -1,0 +1,34 @@
+name: Actualizar mercado ODEPA AFECH
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Revisa la fuente oficial de lunes a viernes. Si no hay boletín nuevo, el JSON no cambia.
+    - cron: "17 12 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar lector de boletines
+        run: pip install openpyxl
+      - name: Actualizar fotografía pública
+        run: python scripts/actualizar_mercado_odepa.py
+      - name: Publicar sólo si cambió la fuente
+        run: |
+          if git diff --quiet -- market-data.json; then
+            echo "Sin boletín nuevo; no hay cambios que publicar."
+            exit 0
+          fi
+          git config user.name "kleoguard-bot"
+          git config user.email "actions@github.com"
+          git add market-data.json
+          git commit -m "Actualizar mercado ODEPA AFECH"
+          git push

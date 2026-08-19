@@ -1,0 +1,6868 @@
+{
+  "fuente": "ODEPA / Asociación Gremial de Ferias Ganaderas de Chile (AFECH)",
+  "metodo": "Precio promedio por kilo de los 5 primeros precios según feria, nominal sin IVA. KleoGuard calcula un promedio simple de las ferias publicadas por jornada.",
+  "actualizado_en_utc": "2026-08-18T23:33:51+00:00",
+  "ultima_jornada_publicada": "2026-08-11",
+  "boletines_consultados": [
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/08/Boletin-semanal-Afech_20260811.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260630.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260623.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/05/Boletin-semanal-Afech_20260526.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/Boletin-semanal-Afech_20260505.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/Boletin-semanal-Afech_20260428.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/Boletin-semanal-Afech_20260421.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/BoletinSemanalAfech_20260331.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260224.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260217.xlsx"
+  ],
+  "advertencias": [],
+  "categorias": {
+    "Novillo Gordo": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2619,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2813,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2569,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2411,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 2614,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2975,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 3093,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2790,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2721,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2644,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2462,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2934,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 3048,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2881,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2465,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2574,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2980,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 3450,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2835,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2567,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2604,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2603,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 3060,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 3036,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2829,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2811,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2343,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2737,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 3060,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2942,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2705,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2301,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2431,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 3217,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 3047,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2682,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2718,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2454,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2624,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 3026,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 3280,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2734,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2674,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2740,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 2400,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2934,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2989,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2858,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2511,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2975,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 2708,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2976,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 3213,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2887,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2718,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2587,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 2768,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2975,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3100,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2423,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2910,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2636,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2425,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2859,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2710,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2954,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2731,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2754,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2853,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2916,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2875,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 3056,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2875,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2847,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2800,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2815,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 3052,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2640,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2873,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 3008,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2586,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 3054,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2657,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2632,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 3060,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 3238,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2633,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 3026,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2622,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 3043,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2836,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2930,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2807,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2955,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2660,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2824,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2799,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 3124,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 3001,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2933,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2939,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2605,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2968,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2936,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2026-02-11",
+          "valor": 2835,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2555,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1800,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2801,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2624,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2733,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2552,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2875,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2648,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2852,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2391,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 3023,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2735,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2253,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2928,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2659,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1940,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2918,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1960,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2654,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2120,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 3411,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2308,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2523,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 3017,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2504,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2378,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2560,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2915,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2549,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2686,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2099,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2811,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2822,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2765,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2657,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 3100,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 2936,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 2657,
+        "ferias": 1
+      }
+    },
+    "Novillo Engorda": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2778,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2810,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2783,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2735,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 2629,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2676,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2676,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2767,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2860,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2691,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2885,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2715,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2611,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2897,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 3009,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2896,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2893,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 3110,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2883,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2991,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2561,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2879,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2813,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2889,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2929,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2930,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2791,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2943,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2864,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2821,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2916,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2697,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2787,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2736,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2709,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2869,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2917,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2520,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2852,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2643,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2870,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2868,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2878,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2585,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 2809,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2617,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2702,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2747,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 3041,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2742,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 2815,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2466,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2598,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2897,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2931,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2880,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 2917,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2811,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3016,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2444,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2866,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2682,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2894,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2678,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2560,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2773,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2750,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2725,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2718,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2460,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2938,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 3018,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2841,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2828,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 3106,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2651,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2702,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2779,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2973,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2948,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2637,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2714,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2767,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2902,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2688,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2557,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2776,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2780,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2450,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2500,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2509,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2990,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2786,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2599,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2486,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2569,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2591,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2995,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2538,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2582,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2469,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2888,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 3026,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2822,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2872,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3111,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2924,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2864,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2683,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2470,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2548,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2765,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2926,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2561,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2530,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2763,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2518,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2851,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2757,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2865,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2905,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2670,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1878,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2813,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2937,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2754,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2880,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2827,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2576,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2912,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2313,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2738,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2608,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 3106,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2797,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2637,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2844,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2673,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2488,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2709,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2809,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2905,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2708,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2862,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2503,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2969,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2554,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2832,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2639,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 3016,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 3111,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 2639,
+        "ferias": 1
+      }
+    },
+    "Vaca Gorda": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 1932,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2105,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2075,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1841,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 2051,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2281,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2179,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2184,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2120,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1925,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2133,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2294,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2295,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2127,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1993,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1986,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2162,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2395,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2224,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2209,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2010,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1911,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2322,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2202,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2151,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2189,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2103,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1998,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2319,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2373,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2192,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2139,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1808,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2281,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2491,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2132,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2015,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 1869,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2104,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2306,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2371,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2287,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2225,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2054,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 2249,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2384,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2365,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2247,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2239,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 1987,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 2162,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2450,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2320,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2308,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2338,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2316,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 2075,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2469,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2420,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2256,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2192,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 1839,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1945,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2216,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 1982,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2424,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2084,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2061,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2161,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2308,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2134,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1846,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2211,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2380,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2219,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2252,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2268,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2230,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2269,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2083,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2331,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2207,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2226,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2224,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2244,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2558,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2175,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 1975,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2155,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2453,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2190,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2342,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2160,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2155,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2521,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2262,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2178,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2243,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2177,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2545,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2211,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2455,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2251,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2431,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2550,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2356,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 1667,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2262,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 1946,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1729,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2446,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2119,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2226,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 1867,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1836,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2489,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2298,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2344,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1897,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2443,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2208,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1977,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2038,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2326,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2217,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2122,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1949,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2282,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2281,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2291,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2016,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2341,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2070,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2389,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2089,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2146,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2304,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2177,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2081,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2239,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2178,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2284,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2156,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 1941,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2218,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2463,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2141,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2424,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2388,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 2420,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 2356,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 2388,
+        "ferias": 1
+      }
+    },
+    "Vaca Engorda": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 1510,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 1355,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 1393,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1315,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 1726,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 1548,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 1280,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 1598,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 1541,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1470,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1316,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1578,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1472,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1573,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1661,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1831,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1407,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1882,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1567,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1740,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1597,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1872,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1653,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1886,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1902,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1616,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1626,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1867,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1683,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1611,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1624,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1646,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1636,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1491,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1472,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 1570,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 1573,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2078,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2027,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 1447,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 1641,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 1761,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 1860,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 1596,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 1727,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 1549,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 1888,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 1662,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 1795,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 1852,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 1878,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 1435,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 1610,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 1911,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 1715,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 1756,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 1937,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 1666,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 1831,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 1387,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 1239,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 1020,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1107,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 1436,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 1243,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 1578,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 1521,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1391,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1788,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1214,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1634,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1575,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1471,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1591,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1653,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1690,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1766,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2080,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2044,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1557,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1668,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1958,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1568,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1718,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1642,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1396,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 1638,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 1283,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 1547,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 1628,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 1722,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 1688,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 1500,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 1538,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2146,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 1630,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 1673,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 1800,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 1740,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 1333,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 1792,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 1497,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 1692,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 1509,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 1724,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2026-02-11",
+          "valor": 1623,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 1409,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1474,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 1529,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 1362,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 1639,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 1160,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1450,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1196,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1327,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1692,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1547,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1597,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1771,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1684,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1556,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1607,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1761,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1333,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1424,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1631,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1631,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1634,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1504,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1273,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1560,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 1707,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 1464,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 1491,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 1840,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 1761,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 1679,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 1597,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 1765,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 1785,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 1574,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 1773,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 1685,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2151,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 1400,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 1753,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 1857,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 1831,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 1724,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 1857,
+        "ferias": 1
+      }
+    },
+    "Vaquilla Gorda": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2500,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2754,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2545,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2313,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 2386,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2915,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2924,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2906,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2656,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2505,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 3141,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2844,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 3093,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2889,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2588,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2331,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2847,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 3290,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2826,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2632,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2530,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2542,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 3000,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2753,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2715,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2532,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2577,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2500,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2920,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2913,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2695,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2592,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2713,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2899,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2947,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2544,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2554,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2542,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2678,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2938,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2971,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2751,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2495,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2354,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 2419,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2879,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2878,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2745,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2600,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2447,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 2550,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2987,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2804,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2842,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2504,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2821,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 2475,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2940,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2970,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2574,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 3018,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2389,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2574,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2755,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2384,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 3062,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2575,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2765,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2685,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2752,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2807,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2577,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2736,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2850,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2653,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2418,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2811,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2541,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2827,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2580,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2616,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2812,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2619,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2716,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2766,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 3046,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2695,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2550,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2627,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2798,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2354,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2823,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2311,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2271,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2820,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2570,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2900,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2471,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2335,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2851,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2671,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2890,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2568,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2638,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2907,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2833,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2210,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2726,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2415,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2073,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2638,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2665,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2747,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2433,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2502,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2828,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2662,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2786,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2575,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2806,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2696,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2366,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2545,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2944,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2663,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2258,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2215,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2784,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2428,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2659,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2416,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2775,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2380,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2632,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2810,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2521,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2589,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2370,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2276,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2704,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2425,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2650,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2360,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2090,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2516,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2736,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2247,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2717,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2670,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 2970,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 2833,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 2670,
+        "ferias": 1
+      }
+    },
+    "Vaquilla Engorda": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2590,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2501,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2532,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2548,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 2487,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2537,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2275,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2653,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2635,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2626,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2467,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2614,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2656,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2796,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2964,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2601,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2602,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2783,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2621,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2735,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2718,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2827,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2649,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2388,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2742,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2834,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2576,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2574,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2596,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2662,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2589,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2695,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2503,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2616,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2446,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2543,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2565,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2452,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2652,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2503,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2607,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2757,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2865,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2441,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 2445,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2530,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2655,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2708,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2717,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2599,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 2703,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2594,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2381,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2825,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2900,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2624,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 2731,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2575,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2724,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2335,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2333,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 1975,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2265,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2446,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 1935,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2638,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2317,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2429,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2742,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2828,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2748,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2848,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2624,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2471,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2561,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2497,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2543,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1965,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2768,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2567,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2278,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2644,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2586,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2595,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2582,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2209,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2518,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2257,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 1933,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2478,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2457,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2853,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2634,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 1834,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2534,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2478,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2661,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2469,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2361,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2630,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2283,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2754,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2857,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2398,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2496,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2626,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2656,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2691,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2278,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2835,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2282,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2207,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2807,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2392,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2969,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2471,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2509,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2819,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2541,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2488,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2817,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2503,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2756,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2654,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2609,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2480,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2794,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2207,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2413,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2600,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2361,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2517,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2226,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2548,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2235,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2158,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2657,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2517,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2590,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2511,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2503,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2648,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2303,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2659,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2116,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2834,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2820,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2521,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2743,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 2724,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 2626,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 2743,
+        "ferias": 1
+      }
+    },
+    "Toros": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2105,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2289,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2269,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2014,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 1998,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2297,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2214,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2204,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2472,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2086,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2469,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2227,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2130,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2100,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2271,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2087,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2287,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2400,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2214,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2560,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1998,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2370,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2259,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2343,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2078,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2400,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1921,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2639,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2358,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2021,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2186,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2206,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2333,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2256,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2284,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2036,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2436,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 1817,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2385,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2250,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2119,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2247,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2260,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 1624,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 2313,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2591,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2470,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2277,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2550,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2367,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 2382,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2292,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2212,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2751,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2490,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2445,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 2540,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2580,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2708,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 1615,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2320,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2229,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1716,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2419,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2039,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2394,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2824,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2033,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2466,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2142,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2286,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2613,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2531,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2368,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2804,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1852,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2607,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2308,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2173,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2556,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1983,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2580,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2067,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2204,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2678,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2704,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2091,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2408,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 1660,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2327,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 1737,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2256,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2111,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2014,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2304,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2351,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2146,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2730,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2011,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2413,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2472,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2778,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2288,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2636,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2581,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 1800,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2566,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 1959,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1994,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2376,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2486,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2299,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2009,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2117,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2528,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2085,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2243,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1821,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2259,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2239,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2285,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1405,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2368,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2276,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2136,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1516,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2366,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1936,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2368,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2014,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2112,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1934,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2147,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2462,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2034,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2491,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 1965,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 700,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 4510,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2110,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2515,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2179,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2160,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 1951,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 2698,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2277,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2651,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 2742,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 2708,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 2581,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 2742,
+        "ferias": 1
+      }
+    },
+    "Terneros": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 3325,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 3348,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 3108,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 3239,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 2952,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2929,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2962,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 3393,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 3229,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 3604,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 3022,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2968,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 3150,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 3128,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 4998,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 3471,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 3065,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 3241,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 3334,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 3433,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 3255,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 3121,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 3089,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 3122,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 3339,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 3531,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 3196,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 3074,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 3046,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 3162,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 3227,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 3312,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 3175,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2908,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 3099,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 3184,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 3063,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 3012,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 3250,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2971,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 3170,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 3232,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 3332,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2858,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 3111,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2800,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2886,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 3255,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 3272,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 3087,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 3169,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2843,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2940,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 3241,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 3208,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 3219,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 3192,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2999,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3225,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 3168,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 3416,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2712,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2898,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2937,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2764,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 3512,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2554,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2851,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 3007,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 3181,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2873,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 5998,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2945,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 3264,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 3195,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2680,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2980,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 3148,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 3364,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 3050,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 3043,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2993,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 3137,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 3341,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2837,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2866,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 3087,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2816,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2843,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2704,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 3197,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 3238,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2864,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 3030,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2759,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2900,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 3268,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2890,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2657,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2715,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 3091,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 3278,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2896,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 3254,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2904,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3212,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 3136,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 3704,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 3273,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 3155,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 3074,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 3178,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 3669,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 3320,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 3318,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 3562,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 3254,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 3472,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 3363,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 3309,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 3453,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 3406,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 3116,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 3530,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 3437,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 3130,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 3259,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 3224,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 3197,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 3087,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 3216,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2937,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 3130,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 3210,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 3422,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 3159,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 3409,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 3446,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2403,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2868,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2997,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 3563,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 3361,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 3494,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2849,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 3727,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 3557,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 3412,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3438,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 3225,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 3212,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 3438,
+        "ferias": 1
+      }
+    },
+    "Terneras": {
+      "nacional": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 3032,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2745,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2662,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 2850,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-14",
+          "valor": 2503,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2451,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2342,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 2973,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2693,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2896,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2401,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2613,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2503,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2906,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 3153,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2854,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2643,
+          "ferias": 7
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2524,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2993,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 3070,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 3044,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2596,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2703,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2722,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2933,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 3114,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2763,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2636,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2656,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2820,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2852,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 3112,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2656,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2561,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2526,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2796,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2902,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 2435,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-05-23",
+          "valor": 2596,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2540,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2846,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2847,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 3039,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2616,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-20",
+          "valor": 2716,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2583,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2669,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2798,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2877,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2779,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-06-27",
+          "valor": 2729,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2523,
+          "ferias": 5
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2737,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 3086,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 3209,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2943,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-08",
+          "valor": 2816,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2508,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3083,
+          "ferias": 5
+        }
+      ],
+      "tattersall": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2946,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 2781,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2230,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 1866,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 2561,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2085,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 3313,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2132,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1958,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2557,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2181,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2967,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2658,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2477,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 3124,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2359,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2613,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2710,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2638,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 3067,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2525,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2647,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2703,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2763,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 3013,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2525,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2331,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2834,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-21",
+          "valor": 2419,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-22",
+          "valor": 1607,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2424,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2893,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2984,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 2592,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-19",
+          "valor": 2280,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2516,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 2672,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2913,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2467,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2703,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-29",
+          "valor": 2482,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2792,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 3100,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 2700,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-07",
+          "valor": 2853,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2557,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3152,
+          "ferias": 2
+        }
+      ],
+      "fegosa": [
+        {
+          "fecha": "2016-06-03",
+          "valor": 2861,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-11",
+          "valor": 3117,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-12",
+          "valor": 2922,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-13",
+          "valor": 3029,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-16",
+          "valor": 3005,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-17",
+          "valor": 2807,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-18",
+          "valor": 3050,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-19",
+          "valor": 2817,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 3134,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2925,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2893,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 3081,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 3150,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 3186,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 3125,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2968,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 3084,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2846,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2929,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2992,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 3008,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2834,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 3176,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2926,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2951,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2688,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2619,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-20",
+          "valor": 2798,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-25",
+          "valor": 2853,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-05-26",
+          "valor": 2975,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-17",
+          "valor": 2741,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-18",
+          "valor": 3031,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-22",
+          "valor": 2687,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-23",
+          "valor": 3017,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-24",
+          "valor": 2862,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-25",
+          "valor": 2958,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-26",
+          "valor": 2957,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-06-30",
+          "valor": 2745,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-05",
+          "valor": 3255,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-06",
+          "valor": 3348,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-10",
+          "valor": 2852,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-11",
+          "valor": 3419,
+          "ferias": 1
+        }
+      ],
+      "ultimo_nacional": {
+        "fecha": "2026-08-11",
+        "valor": 3083,
+        "ferias": 5
+      },
+      "ultimo_tattersall": {
+        "fecha": "2026-08-11",
+        "valor": 3152,
+        "ferias": 2
+      },
+      "ultimo_fegosa": {
+        "fecha": "2026-08-11",
+        "valor": 3419,
+        "ferias": 1
+      }
+    }
+  }
+}
