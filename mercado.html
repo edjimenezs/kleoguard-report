@@ -37,8 +37,43 @@
     .chart { width:100%; height:380px; }
     .two { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:18px; }
     .footnote { margin-top:25px; padding:18px; background:#e9f1df; color:#31532b; border-radius:16px; }
+    .section-intro { margin:42px 0 16px; }
+    .eyebrow { color:var(--brown); font-size:.86rem; font-weight:850; letter-spacing:.08em; text-transform:uppercase; margin:0 0 7px; }
+    .section-intro p { max-width:820px; color:var(--muted); margin:0; }
+    .signal-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
+    .signal { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:22px; box-shadow:0 8px 24px rgba(87,68,37,.07); }
+    .signal-meta { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:14px; color:#686052; font-size:.88rem; font-weight:800; }
+    .pill { border-radius:99px; padding:4px 9px; font-size:.78rem; font-weight:850; white-space:nowrap; }
+    .pill.vigilar { background:#fff1bf; color:#735813; }
+    .pill.activo { background:#dcebd5; color:#2c5b32; }
+    .pill.seguimiento { background:#e8edf0; color:#48606a; }
+    .signal h3 { font-size:1.2rem; line-height:1.2; }
+    .signal .dato { color:var(--green-dark); font-weight:750; margin:0 0 11px; }
+    .signal .canal { color:#62685e; margin:0 0 14px; }
+    .signal a { font-size:.93rem; }
+    .context-date { color:#706959 !important; font-size:.9rem; margin-top:7px !important; }
+    .china-grid { display:grid; grid-template-columns:1.25fr .75fr; gap:20px; align-items:start; }
+    .china-grid p { margin-bottom:12px; }
+    .provider-list { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 2px; }
+    .provider { background:#f3ead8; border:1px solid #decba8; color:#60431e; border-radius:99px; padding:5px 9px; font-size:.87rem; font-weight:750; }
+    .milestones { display:grid; grid-template-columns:repeat(2,1fr); gap:9px; }
+    .milestone { border-left:5px solid #b08042; background:#f8f1e3; border-radius:10px; padding:10px 11px; }
+    .milestone strong { display:block; color:var(--green-dark); }
+    .milestone small { color:#646354; display:block; margin-top:4px; }
+    .method-list { margin:0; padding-left:19px; color:#62685e; }
+    .method-list li + li { margin-top:9px; }
+    .transmission { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:16px; }
+    .step { position:relative; min-height:154px; background:#f8f2e6; border:1px solid #e0cda8; border-radius:15px; padding:16px; }
+    .step strong { color:var(--green-dark); display:block; font-size:1.02rem; margin-bottom:7px; }
+    .step p { color:#696353; font-size:.92rem; margin:0; }
+    .step:not(:last-child)::after { content:'→'; color:#9a723c; font-size:1.4rem; font-weight:800; position:absolute; right:-19px; top:50%; transform:translateY(-50%); z-index:2; }
+    .watch-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .watch { border-top:4px solid var(--brown); padding:14px 0 3px; }
+    .watch strong { display:block; color:var(--green-dark); margin-bottom:7px; }
+    .watch p { color:#6b695f; font-size:.91rem; margin:0; }
     footer { color:#6d6e67; font-size:.9rem; border-top:1px solid #dfd4bf; padding:28px 0 40px; }
-    @media (max-width:820px) { .grid { grid-template-columns:repeat(2,1fr); } .two { grid-template-columns:1fr; } }
+    @media (max-width:820px) { .grid { grid-template-columns:repeat(2,1fr); } .two,.signal-grid,.china-grid,.watch-grid { grid-template-columns:1fr; } .transmission { grid-template-columns:repeat(2,1fr); } .step:nth-child(2)::after { display:none; } }
+    @media (max-width:580px) { .transmission { grid-template-columns:1fr; } .step:not(:last-child)::after { content:'↓'; right:50%; top:auto; bottom:-23px; transform:translateX(50%); } }
     @media (max-width:580px) { body { font-size:16px; } .wrap { width:min(100% - 24px, 1120px); } header { padding:16px 0 11px; } .brand strong { font-size:1rem; } main { padding:30px 0 44px; } .controls,.grid { grid-template-columns:1fr; } .card { min-height:132px; } .price { margin:12px 0 5px; } .panel { padding:17px 14px; border-radius:16px; } .chart { height:330px; } }
   </style>
 </head>
@@ -67,6 +102,41 @@
       <section class="panel"><h2>Comparación de operadores</h2><p>Último valor disponible de cada operador para la categoría elegida.</p><div class="chart" id="comparison-chart" aria-label="Comparación Tattersall y Fegosa"></div></section>
       <section class="panel"><h2>Lectura para decidir</h2><p id="insight">—</p><div class="footnote">Los valores son <strong>pesos chilenos por kilo, nominales y sin IVA</strong>. La fuente se revisa automáticamente cada día hábil. Si no existe un remate posterior, se conserva la última jornada oficialmente publicada.</div></section>
     </section>
+
+    <section class="section-intro" aria-labelledby="contexto-title">
+      <p class="eyebrow">Radar público</p>
+      <h2 id="contexto-title">Qué puede mover el precio, además de la feria</h2>
+      <p id="contexto-intro">Señales de comercio exterior y consumo. No reemplazan el precio observado ni predicen por sí solas el siguiente remate.</p>
+      <p class="context-date" id="context-date">—</p>
+    </section>
+    <section class="panel" aria-labelledby="cadena-title">
+      <h2 id="cadena-title">Cómo se transmite una señal al precio local</h2>
+      <p>Es una cadena de observación, no una fórmula automática: cada eslabón se contrasta con la jornada publicada de feria.</p>
+      <div class="transmission">
+        <article class="step"><strong>1. China</strong><p>Importaciones, cuotas, precio interno y CNY/USD determinan parte de la demanda mundial.</p></article>
+        <article class="step"><strong>2. Brasil y proveedores</strong><p>Volumen exportado y uso de cuota afectan la competencia internacional.</p></article>
+        <article class="step"><strong>3. Chile</strong><p>Importaciones, faena, disponibilidad y consumo interno filtran el efecto externo.</p></article>
+        <article class="step"><strong>4. Feria local</strong><p>AFECH publica el precio observado. Es el dato para comparar, no la noticia externa.</p></article>
+      </div>
+    </section>
+    <section class="panel" aria-labelledby="china-title">
+      <div class="china-grid">
+        <div>
+          <h2 id="china-title">China → Brasil → Chile</h2>
+          <p id="china-summary">—</p>
+          <h3>Proveedores que el modelo compara como bloque</h3>
+          <div class="provider-list" id="provider-list"></div>
+          <p class="footnote">La regla práctica: una novedad en China puede afectar primero el flujo exportador y precio de Brasil. Sólo después se contrasta con precios, faena e importaciones en Chile; no se asume una transmisión automática.</p>
+        </div>
+        <div>
+          <h3>Semáforo de utilización de cuota</h3>
+          <div class="milestones" id="milestones"></div>
+        </div>
+      </div>
+    </section>
+    <section class="signal-grid" id="signal-grid" aria-label="Señales verificadas de mercado"></section>
+    <section class="panel"><h2>Tablero de seguimiento semanal</h2><p>Estas son las cuatro fuentes de señal que faltan para convertir el radar en un modelo cuantitativo, sin mezclar datos ni atribuir causalidad sin evidencia.</p><div class="watch-grid" id="watch-grid"></div></section>
+    <section class="panel"><h2>Para completar el análisis</h2><p>La próxima capa une precio observado con oferta, demanda y moneda, manteniendo cada fuente separada para no inventar precisión.</p><ul class="method-list" id="pending-list"></ul></section>
   </main>
   <footer><div class="wrap">Fuente pública: <a href="https://www.odepa.gob.cl/contenidos-rubro/boletines-del-rubro/boletin-semanal-de-precios-asoc-gremial-de-ferias-ganaderas" target="_blank" rel="noopener">ODEPA / Asociación Gremial de Ferias Ganaderas de Chile (AFECH)</a>. KleoGuard no reemplaza una liquidación de feria ni una recomendación comercial.</div></footer>
 
@@ -75,7 +145,7 @@
     const fechaLarga = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'numeric', month:'long', year:'numeric'}) : 'sin dato';
     const fechaCorta = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'2-digit', month:'2-digit'}) : '—';
     const byId = id => document.getElementById(id);
-    let mercado, chartHistory, chartComparison;
+    let mercado, contexto, chartHistory, chartComparison;
     function ultimo(serie) { return serie && serie.length ? serie[serie.length - 1] : null; }
     function writeMetric(prefix, item) {
       byId(prefix + '-price').textContent = item ? CLP.format(item.valor) + '/kg' : 'Sin dato';
@@ -115,11 +185,21 @@
       const valorMin = Math.min(...disponibles.map(x=>x.valor)), valorMax = Math.max(...disponibles.map(x=>x.valor));
       byId('insight').textContent = disponibles.length > 1 ? 'Para ' + categoria.toLowerCase() + ', la dispersión entre los últimos datos disponibles de operadores y promedio publicado es de ' + CLP.format(valorMax - valorMin) + '/kg. Compara fechas antes de tomar una decisión.' : 'Todavía no hay suficientes observaciones por operador para comparar esta categoría.';
     }
+    function renderContexto() {
+      byId('contexto-intro').textContent = contexto.alcance;
+      byId('context-date').textContent = 'Corte del radar: ' + fechaLarga(contexto.actualizado_en_utc.slice(0, 10)) + '.';
+      byId('china-summary').textContent = contexto.china.resumen;
+      byId('provider-list').innerHTML = contexto.china.proveedores_a_seguir.map(nombre => '<span class="provider">' + nombre + '</span>').join('');
+      byId('milestones').innerHTML = contexto.china.hitos_cuota.map(hito => '<article class="milestone"><strong>' + hito.umbral + '</strong><small>' + hito.detalle + (hito.fecha ? ' (' + fechaLarga(hito.fecha) + ')' : '') + '</small></article>').join('');
+      byId('signal-grid').innerHTML = contexto.senales.map(signal => '<article class="signal"><div class="signal-meta"><span>' + signal.zona + ' · ' + fechaLarga(signal.fecha) + '</span><span class="pill ' + signal.estado + '">' + signal.estado + '</span></div><h3>' + signal.titulo + '</h3><p class="dato">' + signal.dato + '</p><p class="canal"><strong>Cómo podría importar:</strong> ' + signal.canal + '</p><a href="' + signal.url + '" target="_blank" rel="noopener">Ver fuente: ' + signal.fuente + ' ↗</a></article>').join('');
+      byId('watch-grid').innerHTML = contexto.focos_de_seguimiento.map(foco => '<article class="watch"><strong>' + foco.nombre + '</strong><p>' + foco.detalle + '<br><small>Fuente: ' + foco.fuente + '</small></p></article>').join('');
+      byId('pending-list').innerHTML = contexto.pendientes_metodologicos.map(item => '<li>' + item + '</li>').join('');
+    }
     async function iniciar() {
       try {
-        const response = await fetch('market-data.json', {cache:'no-store'});
-        if (!response.ok) throw new Error('No se pudo cargar market-data.json');
-        mercado = await response.json();
+        const [marketResponse, contextResponse] = await Promise.all([fetch('market-data.json', {cache:'no-store'}), fetch('market-context.json', {cache:'no-store'})]);
+        if (!marketResponse.ok || !contextResponse.ok) throw new Error('No fue posible cargar las fuentes públicas de mercado');
+        [mercado, contexto] = await Promise.all([marketResponse.json(), contextResponse.json()]);
         const selector = byId('categoria');
         Object.keys(mercado.categorias).forEach(nombre => { const option=document.createElement('option'); option.value=nombre; option.textContent=nombre; selector.append(option); });
         selector.value = 'Novillo Gordo';
@@ -127,7 +207,7 @@
         byId('notice').innerHTML = '<strong>Dato oficial más reciente:</strong> la última jornada publicada encontrada es el ' + fecha + '. La pantalla no presenta un precio de hoy si Tattersall, Fegosa o AFECH aún no han publicado un remate posterior.';
         byId('source').textContent = mercado.metodo + ' Actualizado automáticamente: ' + new Date(mercado.actualizado_en_utc).toLocaleString('es-CL') + '.';
         chartHistory = echarts.init(byId('history-chart')); chartComparison = echarts.init(byId('comparison-chart'));
-        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize();}); render();
+        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize();}); render(); renderContexto();
       } catch (error) { byId('notice').textContent = 'No fue posible cargar la fotografía pública de mercado. Reintenta en unos minutos.'; console.error(error); }
     }
     iniciar();

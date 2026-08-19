@@ -1,0 +1,84 @@
+{
+  "actualizado_en_utc": "2026-08-18T00:00:00Z",
+  "alcance": "Radar de contexto público. Resume hechos con fecha y fuente; no calcula una proyección ni una recomendación de compra o venta.",
+  "china": {
+    "titulo": "China: demanda, cuotas y proveedores",
+    "resumen": "China se monitorea como bloque propio. Sus cambios pueden afectar primero a Brasil y, por esa vía comercial, modificar el entorno competitivo de Chile.",
+    "proveedores_a_seguir": ["Brasil", "Argentina", "Uruguay", "Australia", "Nueva Zelandia", "Chile"],
+    "hitos_cuota": [
+      {"umbral": "50%", "estado": "referencia", "detalle": "Primer umbral operativo para empezar a seguir el uso de la cuota y su efecto en los flujos comerciales.", "fecha": null},
+      {"umbral": "80%", "estado": "vigilar", "detalle": "El Ministerio de Agricultura de Brasil informó 80% de utilización de la cuota brasileña.", "fecha": "2026-07-22"},
+      {"umbral": "90%", "estado": "vigilar", "detalle": "Umbral de alerta temprana: conviene revisar volúmenes y precios de exportación.", "fecha": null},
+      {"umbral": "100%", "estado": "evento", "detalle": "Al completarse la cuota, el volumen adicional queda sujeto a la sobretasa establecida por China.", "fecha": null}
+    ]
+  },
+  "senales": [
+    {
+      "zona": "China → Brasil → Chile",
+      "estado": "vigilar",
+      "fecha": "2026-07-22",
+      "titulo": "Brasil reportó 80% de uso de su cuota de carne bovina hacia China",
+      "dato": "Cuota brasileña: 1,106 millones de toneladas; arancel informado: 12% dentro de cuota y sobretasa de 55% por sobre ella.",
+      "canal": "Si Brasil se acerca al 100%, puede cambiar sus incentivos de exportación y el tono competitivo regional. No implica por sí solo un cambio de precio en Chile.",
+      "fuente": "Ministerio de Agricultura y Pecuaria de Brasil (MAPA)",
+      "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/cota-carne-china"
+    },
+    {
+      "zona": "China",
+      "estado": "activo",
+      "fecha": "2026-01-01",
+      "titulo": "China activó medidas de salvaguardia para importaciones de carne bovina",
+      "dato": "La medida rige entre 2026 y 2028. La cuota global comunicada para 2026 es de 1,2 millones de toneladas y el sobrevolumen queda sujeto a una sobretasa de 55%.",
+      "canal": "Las cuotas y su utilización ordenan el acceso de Brasil, Argentina, Uruguay, Australia, Nueva Zelandia y Chile al mercado chino. Por eso deben leerse junto a volúmenes, precios internos chinos y CNY/USD.",
+      "fuente": "Ministerio de Comercio de China (MOFCOM)",
+      "url": "https://www.mofcom.gov.cn/cms_files/filemanager/policySummary/viewcore_7afbe47abc3448819314533910577bd4.html"
+    },
+    {
+      "zona": "Chile: consumo y oferta interna",
+      "estado": "seguimiento",
+      "fecha": "2026-08-18",
+      "titulo": "El mercado bovino chileno depende principalmente del consumo interno",
+      "dato": "ODEPA describe una producción bovina cercana a 200 mil toneladas, orientada principalmente al mercado interno, y publica boletines mensuales de producción, comercio y precios.",
+      "canal": "Para leer el precio de feria hay que mirar faena, importaciones, disponibilidad local y consumo; un cambio externo puede demorar o no trasladarse al sur de Chile.",
+      "fuente": "ODEPA · rubro Carnes y boletines de carne bovina",
+      "url": "https://www.odepa.gob.cl/rubros/carnes"
+    },
+    {
+      "zona": "Chile: mercado interno",
+      "estado": "seguimiento",
+      "fecha": "2026-08-18",
+      "titulo": "La fuente local de contraste es el boletín semanal de precios de AFECH",
+      "dato": "ODEPA publica precios semanales de ferias, junto con información pública de faena, comercio exterior y el mercado de carnes.",
+      "canal": "El contexto internacional sólo se considera una hipótesis hasta que se observe junto a la serie de precios de feria y a los datos de oferta y consumo chileno.",
+      "fuente": "ODEPA · boletines del rubro Carnes",
+      "url": "https://www.odepa.gob.cl/rubros/carnes"
+    }
+  ],
+  "focos_de_seguimiento": [
+    {
+      "nombre": "Precio local",
+      "detalle": "Promedio observado en las ferias incluidas por AFECH.",
+      "fuente": "ODEPA / AFECH"
+    },
+    {
+      "nombre": "Demanda chilena",
+      "detalle": "Consumo interno, faena, producción e importaciones de carne bovina.",
+      "fuente": "ODEPA"
+    },
+    {
+      "nombre": "China",
+      "detalle": "Cuotas, importaciones por proveedor, precio interno y relación CNY/USD.",
+      "fuente": "MOFCOM y fuentes oficiales"
+    },
+    {
+      "nombre": "Brasil",
+      "detalle": "Uso de cuota y exportaciones, como principal canal externo regional.",
+      "fuente": "MAPA"
+    }
+  ],
+  "pendientes_metodologicos": [
+    "Incorporar una serie comparable de importaciones chinas por proveedor: Brasil, Argentina, Uruguay, Australia, Nueva Zelandia y Chile.",
+    "Incorporar precio interno chino, CNY/USD, exportaciones chilenas a China y un indicador público de consumo interno chileno.",
+    "Contrastar cada señal externa con el precio publicado de AFECH antes de atribuir un efecto local."
+  ]
+}
