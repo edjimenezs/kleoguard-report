@@ -1,7 +1,7 @@
 {
   "fuente": "ODEPA / Asociación Gremial de Ferias Ganaderas de Chile (AFECH)",
   "metodo": "Precio promedio por kilo de los 5 primeros precios según feria, nominal sin IVA. KleoGuard calcula un promedio simple de las ferias publicadas por jornada.",
-  "actualizado_en_utc": "2026-08-18T23:33:51+00:00",
+  "actualizado_en_utc": "2026-08-19T13:13:14+00:00",
   "ultima_jornada_publicada": "2026-08-11",
   "boletines_consultados": [
     "https://www.odepa.gob.cl/wp-content/uploads/2026/08/Boletin-semanal-Afech_20260811.xlsx",
