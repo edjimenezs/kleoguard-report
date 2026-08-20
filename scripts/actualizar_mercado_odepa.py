@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Actualiza la serie pública de Novillo Gordo y Novillo Engorda.
+"""Actualiza las series públicas de novillos y vaquillas.
 
 La fuente es el boletín semanal público de ODEPA/AFECH. Este programa nunca
 consulta ni escribe información de productores, correos, SII o SAG.
@@ -32,7 +32,12 @@ BOLETIN_URL = (
 DESTINO = Path(__file__).resolve().parents[1] / "market-data.json"
 MAX_BOLETINES_RECIENTES = 10
 SHEET_NAME = "Promedio (5 primeros precios)"
-CATEGORIAS = ("Novillo Gordo", "Novillo Engorda")
+CATEGORIAS = (
+    "Novillo Gordo",
+    "Novillo Engorda",
+    "Vaquilla Gorda",
+    "Vaquilla Engorda",
+)
 SERIE_DESDE = date(2022, 1, 1)
 
 
@@ -236,7 +241,7 @@ def construir(historial_completo: bool) -> dict[str, object]:
         for fila in categorias[categoria]["nacional"]  # type: ignore[index]
     ]
     if not fechas:
-        raise RuntimeError("No hay historia pública suficiente para las categorías de novillo.")
+        raise RuntimeError("No hay historia pública suficiente para las categorías configuradas.")
     ultima_fecha = max(fechas)
     return {
         "fuente": "ODEPA / Asociación Gremial de Ferias Ganaderas de Chile (AFECH)",

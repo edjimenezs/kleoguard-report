@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera una referencia semanal experimental para Novillo Gordo y Engorda.
+"""Genera una referencia semanal experimental para novillos y vaquillas.
 
 No es un precio de compra/venta ni reemplaza la feria. El cálculo usa solamente
 precios chilenos publicados antes de cada semana futura:
@@ -23,7 +23,12 @@ from statistics import mean
 RAIZ = Path(__file__).resolve().parents[1]
 ORIGEN = RAIZ / "market-data.json"
 DESTINO = RAIZ / "market-forecast.json"
-CATEGORIAS = ("Novillo Gordo", "Novillo Engorda")
+CATEGORIAS = (
+    "Novillo Gordo",
+    "Novillo Engorda",
+    "Vaquilla Gorda",
+    "Vaquilla Engorda",
+)
 SEMANAS_FUTURAS = 4
 
 

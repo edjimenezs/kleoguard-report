@@ -92,8 +92,8 @@
 <body>
   <header><div class="wrap brand"><a class="back" href="index.html">← Volver al informe</a><strong>📈 KleoGuard Mercado</strong></div></header>
   <main class="wrap">
-    <h1>Mercado de novillos</h1>
-    <p class="intro">Precios reales publicados por ODEPA / AFECH para Novillo Gordo y Novillo Engorda. Compara el promedio de ferias con Tattersall y Fegosa.</p>
+    <h1>Mercado de novillos y vaquillas</h1>
+    <p class="intro">Precios reales publicados por ODEPA / AFECH para novillos y vaquillas. Compara el promedio de las ferias, incluida la información publicada por Tattersall y Fegosa.</p>
     <div class="notice" id="notice">Cargando la última fotografía pública disponible…</div>
 
     <section class="controls" aria-label="Filtros de mercado">
@@ -131,6 +131,8 @@
       <div class="model-grid">
         <article class="model-card"><h3>Novillo Gordo</h3><p><strong>Prueba histórica</strong><br>Al simular 2025, la diferencia promedio fue de $65/kg. Al simular 2026, fue de $93/kg.</p></article>
         <article class="model-card"><h3>Novillo Engorda</h3><p><strong>Prueba histórica</strong><br>Al simular 2025, la diferencia promedio fue de $80/kg. Al simular 2026, fue de $81/kg.</p></article>
+        <article class="model-card"><h3>Vaquilla Gorda</h3><p><strong>Serie pública desde 2022</strong><br>La referencia se muestra con el mismo método explicable. Su precisión histórica se informará después de validarla por categoría.</p></article>
+        <article class="model-card"><h3>Vaquilla Engorda</h3><p><strong>Serie pública desde 2022</strong><br>La referencia se muestra con el mismo método explicable. Su precisión histórica se informará después de validarla por categoría.</p></article>
       </div>
       <p class="model-warning"><strong>Conclusión por ahora:</strong> la meta es bajar de $40/kg o de 1,5%. Como estas pruebas aún no llegan a esa meta, Cleo no muestra una recomendación de compra o venta: el precio publicado arriba sigue siendo la referencia para decidir.</p>
       <p>Brasil y China se siguen abajo como contexto. Todavía <strong>no cambian este cálculo</strong>: se incorporarán sólo si, al probarlos contra la historia, realmente reducen el error sin usar información futura.</p>
@@ -255,7 +257,7 @@
         if (!marketResponse.ok || !contextResponse.ok || !forecastResponse.ok) throw new Error('No fue posible cargar las fuentes públicas de mercado');
         [mercado, contexto, pronosticos] = await Promise.all([marketResponse.json(), contextResponse.json(), forecastResponse.json()]);
         const selector = byId('categoria');
-        const categoriasPermitidas = ['Novillo Gordo', 'Novillo Engorda'];
+        const categoriasPermitidas = ['Novillo Gordo', 'Novillo Engorda', 'Vaquilla Gorda', 'Vaquilla Engorda'];
         categoriasPermitidas.filter(nombre => mercado.categorias[nombre]).forEach(nombre => { const option=document.createElement('option'); option.value=nombre; option.textContent=nombre; selector.append(option); });
         selector.value = 'Novillo Gordo';
         const fecha = fechaLarga(mercado.ultima_jornada_publicada);
