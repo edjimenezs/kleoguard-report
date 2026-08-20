@@ -77,10 +77,16 @@
     .watch { border-top:4px solid var(--brown); padding:14px 0 3px; }
     .watch strong { display:block; color:var(--green-dark); margin-bottom:7px; }
     .watch p { color:#6b695f; font-size:.91rem; margin:0; }
+    .forecast-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:18px 0; }
+    .forecast-card { padding:16px; background:#f8f2e6; border:1px solid #e0cda8; border-radius:15px; }
+    .forecast-date { color:#685d4b; font-weight:800; font-size:.96rem; }
+    .forecast-value { color:var(--green-dark); font-size:clamp(1.5rem,3vw,2rem); font-weight:850; line-height:1.1; margin:.35rem 0; }
+    .forecast-range { color:var(--muted); font-size:.9rem; line-height:1.42; }
+    .forecast-chart { height:340px; }
     footer { color:#6d6e67; font-size:.9rem; border-top:1px solid #dfd4bf; padding:28px 0 40px; }
-    @media (max-width:820px) { .grid { grid-template-columns:repeat(2,1fr); } .two,.signal-grid,.china-grid,.watch-grid,.model-grid { grid-template-columns:1fr; } .transmission { grid-template-columns:repeat(2,1fr); } .step:nth-child(2)::after { display:none; } }
+    @media (max-width:820px) { .grid { grid-template-columns:repeat(2,1fr); } .two,.signal-grid,.china-grid,.watch-grid,.model-grid { grid-template-columns:1fr; } .forecast-grid { grid-template-columns:repeat(2,1fr); } .transmission { grid-template-columns:repeat(2,1fr); } .step:nth-child(2)::after { display:none; } }
     @media (max-width:580px) { .transmission { grid-template-columns:1fr; } .step:not(:last-child)::after { content:'↓'; right:50%; top:auto; bottom:-23px; transform:translateX(50%); } }
-    @media (max-width:580px) { body { font-size:16px; } .wrap { width:min(100% - 24px, 1120px); } header { padding:16px 0 11px; } .brand strong { font-size:1rem; } main { padding:30px 0 44px; } .controls,.grid { grid-template-columns:1fr; } .card { min-height:132px; } .price { margin:12px 0 5px; } .panel { padding:17px 14px; border-radius:16px; } .chart { height:330px; } }
+    @media (max-width:580px) { body { font-size:16px; } .wrap { width:min(100% - 24px, 1120px); } header { padding:16px 0 11px; } .brand strong { font-size:1rem; } main { padding:30px 0 44px; } .controls,.grid,.forecast-grid { grid-template-columns:1fr; } .card { min-height:132px; } .price { margin:12px 0 5px; } .panel { padding:17px 14px; border-radius:16px; } .chart { height:330px; } .forecast-chart { height:300px; } }
   </style>
 </head>
 <body>
@@ -109,10 +115,19 @@
       <section class="panel"><h2>Lectura para decidir</h2><p id="insight">—</p><div class="footnote">Los valores son <strong>pesos chilenos por kilo, nominales y sin IVA</strong>. La fuente se revisa automáticamente cada día hábil. Si no existe un remate posterior, se conserva la última jornada oficialmente publicada.</div></section>
     </section>
 
+    <section class="panel" aria-labelledby="forecast-title">
+      <p class="eyebrow">Próximas 4 semanas · en prueba</p>
+      <h2 id="forecast-title">Precio futuro orientativo</h2>
+      <p id="forecast-description">Cargando estimación…</p>
+      <div class="forecast-grid" id="forecast-cards"></div>
+      <div class="chart forecast-chart" id="forecast-chart" aria-label="Estimación de precio para cuatro semanas"></div>
+      <p class="model-warning" id="forecast-warning">—</p>
+    </section>
+
     <section class="panel" aria-labelledby="modelo-title">
-      <p class="eyebrow">Precio futuro · en prueba</p>
-      <h2 id="modelo-title">Qué está calculando Cleo y qué todavía no</h2>
-      <p>La prueba toma solamente precios publicados de Chile: la categoría, la feria, la época del año y el comportamiento de las semanas anteriores. No usa información del predio, facturas ni datos futuros.</p>
+      <p class="eyebrow">Cómo se calcula</p>
+      <h2 id="modelo-title">Una estimación simple y comprobable</h2>
+      <p>La prueba toma precios que ya se publicaron: cómo se movió la categoría en las semanas previas y en la misma época del año. No usa información del predio, facturas ni datos futuros.</p>
       <div class="model-grid">
         <article class="model-card"><h3>Novillo Gordo</h3><p><strong>Prueba histórica</strong><br>Al simular 2025, la diferencia promedio fue de $65/kg. Al simular 2026, fue de $93/kg.</p></article>
         <article class="model-card"><h3>Novillo Engorda</h3><p><strong>Prueba histórica</strong><br>Al simular 2025, la diferencia promedio fue de $80/kg. Al simular 2026, fue de $81/kg.</p></article>
@@ -163,7 +178,7 @@
     const fechaLarga = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'numeric', month:'long', year:'numeric'}) : 'sin dato';
     const fechaCorta = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'2-digit', month:'2-digit'}) : '—';
     const byId = id => document.getElementById(id);
-    let mercado, contexto, chartHistory, chartComparison;
+    let mercado, contexto, pronosticos, chartHistory, chartComparison, chartForecast;
     function ultimo(serie) { return serie && serie.length ? serie[serie.length - 1] : null; }
     function writeMetric(prefix, item) {
       byId(prefix + '-price').textContent = item ? CLP.format(item.valor) + '/kg' : 'Sin dato';
@@ -202,6 +217,27 @@
       const disponibles = [itemNacional,itemTattersall,itemFegosa].filter(Boolean);
       const valorMin = Math.min(...disponibles.map(x=>x.valor)), valorMax = Math.max(...disponibles.map(x=>x.valor));
       byId('insight').textContent = disponibles.length > 1 ? 'Para ' + categoria.toLowerCase() + ', la dispersión entre los últimos datos disponibles de operadores y promedio publicado es de ' + CLP.format(valorMax - valorMin) + '/kg. Compara fechas antes de tomar una decisión.' : 'Todavía no hay suficientes observaciones por operador para comparar esta categoría.';
+      renderForecast(categoria);
+    }
+    function renderForecast(categoria) {
+      const forecast = pronosticos && pronosticos.categorias && pronosticos.categorias[categoria];
+      if (!forecast) return;
+      const rows = forecast.pronosticos || [];
+      byId('forecast-title').textContent = 'Precio futuro orientativo · ' + categoria;
+      byId('forecast-description').textContent = 'Estimación basada en precios publicados hasta el ' + fechaLarga(forecast.corte_historia) + '. Sirve para mirar una tendencia posible; no reemplaza el valor de una feria.';
+      byId('forecast-cards').innerHTML = rows.map(row => '<article class="forecast-card"><div class="forecast-date">Semana del ' + fechaLarga(row.fecha) + '</div><div class="forecast-value">' + CLP.format(row.estimado) + '/kg</div><div class="forecast-range">Rango probable<br>' + CLP.format(row.minimo) + ' a ' + CLP.format(row.maximo) + '/kg</div></article>').join('');
+      chartForecast.setOption({
+        animationDuration:450, grid:{left:72,right:22,top:34,bottom:58},
+        tooltip:{trigger:'axis', formatter:params => { const row=rows[params[0].dataIndex]; return '<strong>Semana del ' + fechaLarga(row.fecha) + '</strong><br>Estimación: ' + CLP.format(row.estimado) + '/kg<br>Rango: ' + CLP.format(row.minimo) + ' a ' + CLP.format(row.maximo) + '/kg'; }},
+        legend:{bottom:0}, xAxis:{type:'category',data:rows.map(row=>fechaCorta(row.fecha))},
+        yAxis:{type:'value',axisLabel:{formatter:value=>CLP.format(value)},splitLine:{lineStyle:{color:'#e7ddc9'}}},
+        series:[
+          {name:'Rango inferior',type:'line',data:rows.map(row=>row.minimo),symbol:'none',lineStyle:{type:'dashed',width:1.5,color:'#b08042'}},
+          {name:'Rango superior',type:'line',data:rows.map(row=>row.maximo),symbol:'none',lineStyle:{type:'dashed',width:1.5,color:'#b08042'}},
+          {name:'Estimación',type:'line',data:rows.map(row=>row.estimado),smooth:.18,symbolSize:9,lineStyle:{width:3,color:'#4e753f'},itemStyle:{color:'#4e753f'}}
+        ]
+      }, true);
+      byId('forecast-warning').innerHTML = '<strong>Importante:</strong> esta es una estimación de tendencia, no un precio comprometido. La prueba histórica todavía no llega a la meta de precisión de Cleo (menos de $40/kg o 1,5%). Antes de comprar o vender, confirma el valor con la feria.';
     }
     function renderContexto() {
       byId('contexto-intro').textContent = contexto.alcance + ' Estas señales ayudan a entender el entorno, pero todavía no modifican el cálculo experimental de Cleo.';
@@ -215,9 +251,9 @@
     }
     async function iniciar() {
       try {
-        const [marketResponse, contextResponse] = await Promise.all([fetch('market-data.json', {cache:'no-store'}), fetch('market-context.json', {cache:'no-store'})]);
-        if (!marketResponse.ok || !contextResponse.ok) throw new Error('No fue posible cargar las fuentes públicas de mercado');
-        [mercado, contexto] = await Promise.all([marketResponse.json(), contextResponse.json()]);
+        const [marketResponse, contextResponse, forecastResponse] = await Promise.all([fetch('market-data.json', {cache:'no-store'}), fetch('market-context.json', {cache:'no-store'}), fetch('market-forecast.json', {cache:'no-store'})]);
+        if (!marketResponse.ok || !contextResponse.ok || !forecastResponse.ok) throw new Error('No fue posible cargar las fuentes públicas de mercado');
+        [mercado, contexto, pronosticos] = await Promise.all([marketResponse.json(), contextResponse.json(), forecastResponse.json()]);
         const selector = byId('categoria');
         const categoriasPermitidas = ['Novillo Gordo', 'Novillo Engorda'];
         categoriasPermitidas.filter(nombre => mercado.categorias[nombre]).forEach(nombre => { const option=document.createElement('option'); option.value=nombre; option.textContent=nombre; selector.append(option); });
@@ -225,8 +261,8 @@
         const fecha = fechaLarga(mercado.ultima_jornada_publicada);
         byId('notice').innerHTML = '<strong>Dato oficial más reciente:</strong> la última jornada publicada encontrada es el ' + fecha + '. La pantalla no presenta un precio de hoy si Tattersall, Fegosa o AFECH aún no han publicado un remate posterior.';
         byId('source').textContent = mercado.metodo + ' Actualizado automáticamente: ' + new Date(mercado.actualizado_en_utc).toLocaleString('es-CL') + '.';
-        chartHistory = echarts.init(byId('history-chart')); chartComparison = echarts.init(byId('comparison-chart'));
-        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize();}); render(); renderContexto();
+        chartHistory = echarts.init(byId('history-chart')); chartComparison = echarts.init(byId('comparison-chart')); chartForecast = echarts.init(byId('forecast-chart'));
+        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize(); chartForecast.resize();}); render(); renderContexto();
       } catch (error) { byId('notice').textContent = 'No fue posible cargar la fotografía pública de mercado. Reintenta en unos minutos.'; console.error(error); }
     }
     iniciar();

@@ -1,0 +1,28 @@
+{
+  "actualizado_en_utc": "2026-08-19T13:13:14+00:00",
+  "alcance": "Proyección experimental basada únicamente en precios públicos de Chile ya publicados.",
+  "categorias": {
+    "Novillo Gordo": {
+      "corte_historia": "2026-08-06",
+      "filas_historia": 227,
+      "modelo": "Memoria reciente y estacionalidad semanal (Ridge)",
+      "pronosticos": [
+        {"fecha": "2026-08-20", "estimado": 2936, "minimo": 2861, "maximo": 3095},
+        {"fecha": "2026-08-27", "estimado": 2997, "minimo": 2922, "maximo": 3157},
+        {"fecha": "2026-09-03", "estimado": 2977, "minimo": 2902, "maximo": 3136},
+        {"fecha": "2026-09-10", "estimado": 2994, "minimo": 2919, "maximo": 3153}
+      ]
+    },
+    "Novillo Engorda": {
+      "corte_historia": "2026-08-06",
+      "filas_historia": 227,
+      "modelo": "Memoria reciente y estacionalidad semanal (Ridge)",
+      "pronosticos": [
+        {"fecha": "2026-08-20", "estimado": 2834, "minimo": 2711, "maximo": 3053},
+        {"fecha": "2026-08-27", "estimado": 2869, "minimo": 2745, "maximo": 3088},
+        {"fecha": "2026-09-03", "estimado": 2898, "minimo": 2775, "maximo": 3117},
+        {"fecha": "2026-09-10", "estimado": 2895, "minimo": 2772, "maximo": 3115}
+      ]
+    }
+  }
+}
