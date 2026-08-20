@@ -3012,11 +3012,6 @@
     "Vaquilla Gorda": {
       "nacional": [
         {
-          "fecha": "2016-06-03",
-          "valor": 2500,
-          "ferias": 4
-        },
-        {
           "fecha": "2026-02-11",
           "valor": 2754,
           "ferias": 4
@@ -3309,11 +3304,6 @@
       ],
       "tattersall": [
         {
-          "fecha": "2016-06-03",
-          "valor": 2574,
-          "ferias": 1
-        },
-        {
           "fecha": "2026-02-11",
           "valor": 3018,
           "ferias": 2
@@ -3546,11 +3536,6 @@
       ],
       "fegosa": [
         {
-          "fecha": "2016-06-03",
-          "valor": 2210,
-          "ferias": 1
-        },
-        {
           "fecha": "2026-02-11",
           "valor": 2726,
           "ferias": 1
@@ -3779,11 +3764,6 @@
     },
     "Vaquilla Engorda": {
       "nacional": [
-        {
-          "fecha": "2016-06-03",
-          "valor": 2590,
-          "ferias": 4
-        },
         {
           "fecha": "2026-02-11",
           "valor": 2501,
@@ -4077,11 +4057,6 @@
       ],
       "tattersall": [
         {
-          "fecha": "2016-06-03",
-          "valor": 2335,
-          "ferias": 1
-        },
-        {
           "fecha": "2026-02-11",
           "valor": 2333,
           "ferias": 2
@@ -4313,11 +4288,6 @@
         }
       ],
       "fegosa": [
-        {
-          "fecha": "2016-06-03",
-          "valor": 2656,
-          "ferias": 1
-        },
         {
           "fecha": "2026-02-11",
           "valor": 2691,
@@ -6840,5 +6810,5 @@
       }
     }
   },
-  "actualizado_en_utc": "2026-08-20T01:42:14+00:00"
+  "actualizado_en_utc": "2026-08-20T19:00:03+00:00"
 }
