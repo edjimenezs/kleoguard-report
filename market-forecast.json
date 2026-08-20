@@ -1,27 +1,72 @@
 {
-  "actualizado_en_utc": "2026-08-19T13:13:14+00:00",
-  "alcance": "Proyección experimental basada únicamente en precios públicos de Chile ya publicados.",
+  "fuente_historia": "ODEPA / AFECH, precios públicos chilenos observados.",
+  "alcance": "Referencia experimental de cuatro semanas. Usa sólo precios públicos chilenos publicados hasta la última jornada; no incorpora datos privados ni señales externas todavía.",
+  "estado": "experimental",
   "categorias": {
     "Novillo Gordo": {
-      "corte_historia": "2026-08-06",
-      "filas_historia": 227,
-      "modelo": "Memoria reciente y estacionalidad semanal (Ridge)",
+      "corte_historia": "2026-08-10",
+      "filas_historia": 16,
+      "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
+      "variacion_referencia_pct": 16.7,
+      "ultimo_observado": 3038,
       "pronosticos": [
-        {"fecha": "2026-08-20", "estimado": 2936, "minimo": 2861, "maximo": 3095},
-        {"fecha": "2026-08-27", "estimado": 2997, "minimo": 2922, "maximo": 3157},
-        {"fecha": "2026-09-03", "estimado": 2977, "minimo": 2902, "maximo": 3136},
-        {"fecha": "2026-09-10", "estimado": 2994, "minimo": 2919, "maximo": 3153}
+        {
+          "fecha": "2026-08-17",
+          "estimado": 2984,
+          "minimo": 2485,
+          "maximo": 3483
+        },
+        {
+          "fecha": "2026-08-24",
+          "estimado": 2965,
+          "minimo": 2469,
+          "maximo": 3461
+        },
+        {
+          "fecha": "2026-08-31",
+          "estimado": 2943,
+          "minimo": 2451,
+          "maximo": 3435
+        },
+        {
+          "fecha": "2026-09-07",
+          "estimado": 2946,
+          "minimo": 2453,
+          "maximo": 3439
+        }
       ]
     },
     "Novillo Engorda": {
-      "corte_historia": "2026-08-06",
-      "filas_historia": 227,
-      "modelo": "Memoria reciente y estacionalidad semanal (Ridge)",
+      "corte_historia": "2026-08-10",
+      "filas_historia": 16,
+      "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
+      "variacion_referencia_pct": 6.4,
+      "ultimo_observado": 2914,
       "pronosticos": [
-        {"fecha": "2026-08-20", "estimado": 2834, "minimo": 2711, "maximo": 3053},
-        {"fecha": "2026-08-27", "estimado": 2869, "minimo": 2745, "maximo": 3088},
-        {"fecha": "2026-09-03", "estimado": 2898, "minimo": 2775, "maximo": 3117},
-        {"fecha": "2026-09-10", "estimado": 2895, "minimo": 2772, "maximo": 3115}
+        {
+          "fecha": "2026-08-17",
+          "estimado": 2867,
+          "minimo": 2684,
+          "maximo": 3050
+        },
+        {
+          "fecha": "2026-08-24",
+          "estimado": 2843,
+          "minimo": 2662,
+          "maximo": 3024
+        },
+        {
+          "fecha": "2026-08-31",
+          "estimado": 2847,
+          "minimo": 2665,
+          "maximo": 3029
+        },
+        {
+          "fecha": "2026-09-07",
+          "estimado": 2846,
+          "minimo": 2664,
+          "maximo": 3028
+        }
       ]
     }
   }

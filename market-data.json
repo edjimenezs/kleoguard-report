@@ -1,7 +1,7 @@
 {
   "fuente": "ODEPA / Asociación Gremial de Ferias Ganaderas de Chile (AFECH)",
-  "metodo": "Precio promedio por kilo de los 5 primeros precios según feria, nominal sin IVA. KleoGuard calcula un promedio simple de las ferias publicadas por jornada.",
-  "actualizado_en_utc": "2026-08-19T13:13:14+00:00",
+  "metodo": "Precio promedio por kilo de los 5 primeros precios según feria, nominal sin IVA. KleoGuard calcula un promedio simple de las ferias por jornada.",
+  "serie_desde": "2022-01-01",
   "ultima_jornada_publicada": "2026-08-11",
   "boletines_consultados": [
     "https://www.odepa.gob.cl/wp-content/uploads/2026/08/Boletin-semanal-Afech_20260811.xlsx",
@@ -19,11 +19,6 @@
   "categorias": {
     "Novillo Gordo": {
       "nacional": [
-        {
-          "fecha": "2016-06-03",
-          "valor": 2619,
-          "ferias": 2
-        },
         {
           "fecha": "2026-02-11",
           "valor": 2813,
@@ -316,11 +311,6 @@
         }
       ],
       "tattersall": [
-        {
-          "fecha": "2016-06-03",
-          "valor": 2423,
-          "ferias": 1
-        },
         {
           "fecha": "2026-02-11",
           "valor": 2910,
@@ -743,11 +733,6 @@
     "Novillo Engorda": {
       "nacional": [
         {
-          "fecha": "2016-06-03",
-          "valor": 2778,
-          "ferias": 4
-        },
-        {
           "fecha": "2026-02-11",
           "valor": 2810,
           "ferias": 4
@@ -1040,11 +1025,6 @@
       ],
       "tattersall": [
         {
-          "fecha": "2016-06-03",
-          "valor": 2444,
-          "ferias": 1
-        },
-        {
           "fecha": "2026-02-11",
           "valor": 2866,
           "ferias": 2
@@ -1276,11 +1256,6 @@
         }
       ],
       "fegosa": [
-        {
-          "fecha": "2016-06-03",
-          "valor": 2924,
-          "ferias": 1
-        },
         {
           "fecha": "2026-02-11",
           "valor": 2864,
@@ -6864,5 +6839,6 @@
         "ferias": 1
       }
     }
-  }
+  },
+  "actualizado_en_utc": "2026-08-20T01:42:14+00:00"
 }

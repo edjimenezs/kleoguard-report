@@ -1,13 +1,24 @@
-name: Actualizar mercado ODEPA AFECH
+name: Actualizar mercado y proyección pública
 
 on:
   workflow_dispatch:
+    inputs:
+      historial_completo:
+        description: Reconstruir la historia pública desde todos los boletines disponibles
+        required: false
+        default: false
+        type: boolean
   schedule:
-    # Revisa la fuente oficial de lunes a viernes. Si no hay boletín nuevo, el JSON no cambia.
-    - cron: "17 12 * * 1-5"
+    # Revisa ODEPA/AFECH de lunes a viernes, cerca de las 14:17 de Chile continental.
+    # GitHub puede retrasar algunos minutos las tareas programadas.
+    - cron: "17 18 * * 1-5"
 
 permissions:
   contents: write
+
+concurrency:
+  group: actualizar-mercado-publico
+  cancel-in-progress: false
 
 jobs:
   actualizar:
@@ -20,15 +31,27 @@ jobs:
       - name: Instalar lector de boletines
         run: pip install openpyxl
       - name: Actualizar fotografía pública
-        run: python scripts/actualizar_mercado_odepa.py
-      - name: Publicar sólo si cambió la fuente
         run: |
-          if git diff --quiet -- market-data.json; then
-            echo "Sin boletín nuevo; no hay cambios que publicar."
+          if [ "${{ inputs.historial_completo }}" = "true" ]; then
+            python scripts/actualizar_mercado_odepa.py --historial-completo
+          else
+            python scripts/actualizar_mercado_odepa.py
+          fi
+      - name: Recalcular referencia futura
+        run: python scripts/generar_pronostico_mercado.py
+      - name: Validar los datos públicos
+        run: |
+          python -m py_compile scripts/actualizar_mercado_odepa.py scripts/generar_pronostico_mercado.py
+          python -m json.tool market-data.json > /dev/null
+          python -m json.tool market-forecast.json > /dev/null
+      - name: Publicar sólo si hay información oficial nueva
+        run: |
+          if git diff --quiet -- market-data.json market-forecast.json; then
+            echo "Sin jornada oficial nueva; no hay cambios que publicar."
             exit 0
           fi
           git config user.name "kleoguard-bot"
           git config user.email "actions@github.com"
-          git add market-data.json
-          git commit -m "Actualizar mercado ODEPA AFECH"
+          git add market-data.json market-forecast.json
+          git commit -m "Actualizar precios y proyección pública"
           git push
