@@ -5,133 +5,133 @@
   "categorias": {
     "Novillo Gordo": {
       "corte_historia": "2026-08-10",
-      "filas_historia": 16,
+      "filas_historia": 17,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
-      "variacion_referencia_pct": 16.7,
+      "variacion_referencia_pct": 16.5,
       "ultimo_observado": 3038,
       "pronosticos": [
         {
           "fecha": "2026-08-17",
           "estimado": 2984,
-          "minimo": 2485,
-          "maximo": 3483
+          "minimo": 2491,
+          "maximo": 3477
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2965,
-          "minimo": 2469,
-          "maximo": 3461
+          "minimo": 2475,
+          "maximo": 3455
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2943,
-          "minimo": 2451,
-          "maximo": 3435
+          "minimo": 2457,
+          "maximo": 3429
         },
         {
           "fecha": "2026-09-07",
           "estimado": 2946,
-          "minimo": 2453,
-          "maximo": 3439
+          "minimo": 2459,
+          "maximo": 3433
         }
       ]
     },
     "Novillo Engorda": {
       "corte_historia": "2026-08-10",
-      "filas_historia": 16,
+      "filas_historia": 17,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
-      "variacion_referencia_pct": 6.4,
+      "variacion_referencia_pct": 5.8,
       "ultimo_observado": 2914,
       "pronosticos": [
         {
           "fecha": "2026-08-17",
           "estimado": 2867,
-          "minimo": 2684,
-          "maximo": 3050
+          "minimo": 2702,
+          "maximo": 3032
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2843,
-          "minimo": 2662,
-          "maximo": 3024
+          "minimo": 2679,
+          "maximo": 3007
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2847,
-          "minimo": 2665,
-          "maximo": 3029
+          "minimo": 2683,
+          "maximo": 3011
         },
         {
           "fecha": "2026-09-07",
           "estimado": 2846,
-          "minimo": 2664,
-          "maximo": 3028
+          "minimo": 2682,
+          "maximo": 3010
         }
       ]
     },
     "Vaquilla Gorda": {
       "corte_historia": "2026-08-10",
-      "filas_historia": 16,
+      "filas_historia": 17,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
-      "variacion_referencia_pct": 14.3,
+      "variacion_referencia_pct": 14.2,
       "ultimo_observado": 2955,
       "pronosticos": [
         {
           "fecha": "2026-08-17",
           "estimado": 2887,
-          "minimo": 2475,
-          "maximo": 3299
+          "minimo": 2477,
+          "maximo": 3297
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2862,
-          "minimo": 2453,
-          "maximo": 3271
+          "minimo": 2455,
+          "maximo": 3269
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2843,
-          "minimo": 2437,
-          "maximo": 3249
+          "minimo": 2439,
+          "maximo": 3247
         },
         {
           "fecha": "2026-09-07",
           "estimado": 2845,
-          "minimo": 2439,
-          "maximo": 3251
+          "minimo": 2441,
+          "maximo": 3249
         }
       ]
     },
     "Vaquilla Engorda": {
       "corte_historia": "2026-08-10",
-      "filas_historia": 16,
+      "filas_historia": 17,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
-      "variacion_referencia_pct": 4.6,
+      "variacion_referencia_pct": 4.4,
       "ultimo_observado": 2650,
       "pronosticos": [
         {
           "fecha": "2026-08-17",
           "estimado": 2645,
-          "minimo": 2522,
-          "maximo": 2768
+          "minimo": 2530,
+          "maximo": 2760
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2640,
-          "minimo": 2518,
-          "maximo": 2762
+          "minimo": 2525,
+          "maximo": 2755
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2646,
-          "minimo": 2523,
-          "maximo": 2769
+          "minimo": 2531,
+          "maximo": 2761
         },
         {
           "fecha": "2026-09-07",
           "estimado": 2641,
-          "minimo": 2519,
-          "maximo": 2763
+          "minimo": 2526,
+          "maximo": 2756
         }
       ]
     }

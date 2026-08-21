@@ -4,7 +4,6 @@
   "serie_desde": "2022-01-01",
   "ultima_jornada_publicada": "2026-08-11",
   "boletines_consultados": [
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/08/Boletin-semanal-Afech_20260811.xlsx",
     "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260630.xlsx",
     "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260623.xlsx",
     "https://www.odepa.gob.cl/wp-content/uploads/2026/05/Boletin-semanal-Afech_20260526.xlsx",
@@ -13,12 +12,43 @@
     "https://www.odepa.gob.cl/wp-content/uploads/2026/04/Boletin-semanal-Afech_20260421.xlsx",
     "https://www.odepa.gob.cl/wp-content/uploads/2026/04/BoletinSemanalAfech_20260331.xlsx",
     "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260224.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260217.xlsx"
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260217.xlsx",
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260210.xlsx"
   ],
   "advertencias": [],
   "categorias": {
     "Novillo Gordo": {
       "nacional": [
+        {
+          "fecha": "2026-02-04",
+          "valor": 2809,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2239,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2286,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-07",
+          "valor": 2712,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2943,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 3041,
+          "ferias": 4
+        },
         {
           "fecha": "2026-02-11",
           "valor": 2813,
@@ -312,6 +342,31 @@
       ],
       "tattersall": [
         {
+          "fecha": "2026-02-04",
+          "valor": 3002,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2229,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2591,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2809,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 3000,
+          "ferias": 1
+        },
+        {
           "fecha": "2026-02-11",
           "valor": 2910,
           "ferias": 2
@@ -534,6 +589,31 @@
       ],
       "fegosa": [
         {
+          "fecha": "2026-02-04",
+          "valor": 2579,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 1878,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 1986,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2775,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2497,
+          "ferias": 1
+        },
+        {
           "fecha": "2026-02-11",
           "valor": 2835,
           "ferias": 1
@@ -732,6 +812,36 @@
     },
     "Novillo Engorda": {
       "nacional": [
+        {
+          "fecha": "2026-02-04",
+          "valor": 2760,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2578,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2764,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-07",
+          "valor": 2681,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2651,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2610,
+          "ferias": 4
+        },
         {
           "fecha": "2026-02-11",
           "valor": 2810,
@@ -1025,6 +1135,31 @@
       ],
       "tattersall": [
         {
+          "fecha": "2026-02-04",
+          "valor": 2884,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2330,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2591,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2637,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2449,
+          "ferias": 1
+        },
+        {
           "fecha": "2026-02-11",
           "valor": 2866,
           "ferias": 2
@@ -1256,6 +1391,31 @@
         }
       ],
       "fegosa": [
+        {
+          "fecha": "2026-02-04",
+          "valor": 2914,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2331,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2490,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2640,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2604,
+          "ferias": 1
+        },
         {
           "fecha": "2026-02-11",
           "valor": 2864,
@@ -3012,6 +3172,36 @@
     "Vaquilla Gorda": {
       "nacional": [
         {
+          "fecha": "2026-02-04",
+          "valor": 2768,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2411,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2324,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-07",
+          "valor": 2326,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2835,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2988,
+          "ferias": 4
+        },
+        {
           "fecha": "2026-02-11",
           "valor": 2754,
           "ferias": 4
@@ -3304,6 +3494,31 @@
       ],
       "tattersall": [
         {
+          "fecha": "2026-02-04",
+          "valor": 3027,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2196,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2452,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2695,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2658,
+          "ferias": 1
+        },
+        {
           "fecha": "2026-02-11",
           "valor": 3018,
           "ferias": 2
@@ -3536,6 +3751,31 @@
       ],
       "fegosa": [
         {
+          "fecha": "2026-02-04",
+          "valor": 2647,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2333,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2017,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2698,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2536,
+          "ferias": 1
+        },
+        {
           "fecha": "2026-02-11",
           "valor": 2726,
           "ferias": 1
@@ -3764,6 +4004,36 @@
     },
     "Vaquilla Engorda": {
       "nacional": [
+        {
+          "fecha": "2026-02-04",
+          "valor": 2592,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2454,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2426,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-02-07",
+          "valor": 2262,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2554,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2303,
+          "ferias": 4
+        },
         {
           "fecha": "2026-02-11",
           "valor": 2501,
@@ -4057,6 +4327,31 @@
       ],
       "tattersall": [
         {
+          "fecha": "2026-02-04",
+          "valor": 2496,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 1981,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2311,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2642,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 1724,
+          "ferias": 1
+        },
+        {
           "fecha": "2026-02-11",
           "valor": 2333,
           "ferias": 2
@@ -4288,6 +4583,31 @@
         }
       ],
       "fegosa": [
+        {
+          "fecha": "2026-02-04",
+          "valor": 2572,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-05",
+          "valor": 2354,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-06",
+          "valor": 2455,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-09",
+          "valor": 2436,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-02-10",
+          "valor": 2342,
+          "ferias": 1
+        },
         {
           "fecha": "2026-02-11",
           "valor": 2691,
@@ -6810,5 +7130,5 @@
       }
     }
   },
-  "actualizado_en_utc": "2026-08-20T19:00:03+00:00"
+  "actualizado_en_utc": "2026-08-21T18:57:12+00:00"
 }
