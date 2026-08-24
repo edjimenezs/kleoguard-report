@@ -16,6 +16,9 @@
     .brand { display:flex; align-items:center; justify-content:space-between; gap:16px; }
     .brand strong { font-size:1.2rem; }
     .back { display:inline-flex; align-items:center; gap:8px; text-decoration:none; color:var(--green-dark); }
+    .view-switcher { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin-top:14px; }
+    .view-switcher a { display:flex; min-height:46px; align-items:center; justify-content:center; color:var(--green-dark); text-decoration:none; font-weight:800; border:1px solid var(--line); background:#fffdf8; border-radius:11px; padding:7px 12px; }
+    .view-switcher a.active { background:var(--green-dark); border-color:var(--green-dark); color:#fff; }
     main { padding:42px 0 62px; }
     h1 { font-size:clamp(2.1rem, 5vw, 4rem); letter-spacing:-.05em; margin:0; line-height:1.02; }
     h2 { font-size:clamp(1.45rem, 3.4vw, 2rem); letter-spacing:-.03em; margin:0 0 10px; }
@@ -90,7 +93,7 @@
   </style>
 </head>
 <body>
-  <header><div class="wrap brand"><a class="back" href="index.html">← Volver al informe</a><strong>📈 KleoGuard Mercado</strong></div></header>
+  <header><div class="wrap"><div class="brand"><a class="back" href="./">← Volver a trazabilidad</a><strong>📈 KleoGuard Mercado</strong></div><nav class="view-switcher" aria-label="Cambiar vista"><a href="./">🐄 Trazabilidad</a><a class="active" href="mercado.html" aria-current="page">📈 Mercado</a></nav></div></header>
   <main class="wrap">
     <h1>Mercado de novillos y vaquillas</h1>
     <p class="intro">Precios reales publicados por ODEPA / AFECH para novillos y vaquillas. Compara el promedio de las ferias, incluida la información publicada por Tattersall y Fegosa.</p>

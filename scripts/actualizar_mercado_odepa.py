@@ -16,6 +16,7 @@ import json
 import re
 from collections import defaultdict
 from datetime import date, datetime, timezone
+from html import unescape
 from io import BytesIO
 from pathlib import Path
 from statistics import mean
@@ -51,9 +52,33 @@ def descargar(url: str) -> bytes:
         return response.read()
 
 
+def enlaces_xls_del_indice(pagina: str) -> list[str]:
+    """Extrae el archivo XLS de cada semana aunque ODEPA use URLs ``/download``.
+
+    Desde agosto de 2026 la biblioteca digital de ODEPA entrega los archivos
+    como URLs sin extensión. En la tabla pública, el último enlace de cada fila
+    semanal corresponde a la columna "Archivo xls"; los enlaces antiguos que sí
+    terminan en .xlsx se agregan como respaldo.
+    """
+
+    candidatos: list[str] = []
+    for fila in re.findall(r"<tr\b[^>]*>(.*?)</tr>", pagina, flags=re.I | re.S):
+        contenido = unescape(re.sub(r"<[^>]+>", " ", fila)).lower()
+        if "semana del" not in contenido:
+            continue
+        enlaces = re.findall(r'''href=["']([^"']+)["']''', fila, flags=re.I)
+        if len(enlaces) >= 2:
+            candidatos.append(enlaces[-1])
+
+    candidatos.extend(
+        re.findall(r'''href=["']([^"']+\.xlsx(?:\?[^"']*)?)["']''', pagina, flags=re.I)
+    )
+    return candidatos
+
+
 def links_xlsx(historial_completo: bool) -> list[str]:
     pagina = descargar(BOLETIN_URL).decode("utf-8", errors="ignore")
-    hallados = re.findall(r'''href=["']([^"']+\.xlsx(?:\?[^"']*)?)["']''', pagina, flags=re.I)
+    hallados = enlaces_xls_del_indice(pagina)
     unicos: list[str] = []
     for enlace in hallados:
         enlace = urljoin(BOLETIN_URL, enlace.replace("&amp;", "&"))
