@@ -2,280 +2,10 @@
   "fuente": "ODEPA / Asociación Gremial de Ferias Ganaderas de Chile (AFECH)",
   "metodo": "Precio promedio por kilo de los 5 primeros precios según feria, nominal sin IVA. KleoGuard calcula un promedio simple de las ferias por jornada.",
   "serie_desde": "2022-01-01",
-  "ultima_jornada_publicada": "2026-08-18",
+  "ultima_jornada_publicada": "2026-09-01",
   "boletines_consultados": [
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/08/Boletin-semanal-Afech_20260811.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260630.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260623.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/05/Boletin-semanal-Afech_20260526.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/Boletin-semanal-Afech_20260505.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/Boletin-semanal-Afech_20260428.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/Boletin-semanal-Afech_20260421.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/04/BoletinSemanalAfech_20260331.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260224.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260217.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/02/Boletin-semanal-Afech_20260210.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74572/Boletin%20semanal%20Afech_20260203.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74519/BoletinSemanalAfech_20260127.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74510/BoletinSemanalAfech_20260120.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/01/Boletin-semanal-Afech_20260113.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/01/Boletin-semanal-Afech_20260106.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/01/BoletinSemanalAfech_20251230.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74466/BoletinSemanalAfech_20251223.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74456/BoletinSemanalAfech_20251216.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74449/BoletinSemanalAfech_20251209.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74436/Boletin%20semanalAfech_20251202.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74421/BoletinSemanalAfech_20251125.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74417/BoletinSemanalAfech_20251118.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74392/BoletinSemanalAfech_20251111.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2025/11/Boletin-semanal-Afech_20251104.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74368/Boletin%20semanal%20Afech_20251028.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74358/Boletin%20semanal%20Afech_20251021.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74346/Boletin%20semanal%20Afech_20251014.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74325/BoletinSemanalAfech_20251007.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74310/Boletin%20semanal%20Afech_20250930.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74293/Boletin%20semanal%20Afech_20250923.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2025/09/Boletin-semanal-Afech_20250916.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74265/Boletin%20semanal%20Afech_20250909.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74253/BoletinSemanalAfech_20250902.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74243/Boletin%20semanal%20Afech_20250826.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74229/BSemanalAfech_20250819.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74217/BoletinSemanalAfech_20250812.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74195/BoletinSemanalAfech_20250805.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74183/BoletinSemanalAfech_20250729.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2025/07/BoletinSemanalAfech_20250722.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74169/BoletinSemanalAfech_20250715.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74148/Boletin%20semanal%20Afech_20250708.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74133/BoletinSemanalAfech_20250701.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74123/BoletinSemanalAfech_20250624.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74112/BoletinSemanalAfech_20250617.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74082/Boletin%20semanal%20Afech_20250610.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74072/Boletin%20semanal%20Afech_20250603.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74063/BoletinSemanalAfech_20250527.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74057/BoletinSemanalAfech_20250520.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74039/Boletin%20semanal%20Afech_20250513.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74021/Boletin%20semanal%20Afech_20250506.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74012/BoletinSemanalAfech_20250429.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74004/Boletin%20semanal%20Afech_20250422.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73998/Boletin%20semanal%20Afech_20250415.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73992/BoletinSemanalAfech_20250408.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73970/Boletin%20semanal%20Afech_20250401.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73949/BoletinSemanalAfech_20250325.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73928/BoletinSemanaAfech_20250318.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73904/BoletinSemanaAfech_20250311.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73891/BoletinSemanalAfech_20250304.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73878/BoletinSemanalAfech_20250225.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73872/BoletinSemanaAfech_20250218.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73859/BoletinSemanaAfech_20250211.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73836/BoletinSemanaAfech_20250204.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73830/BoletinSemanaAfech_20250128.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73811/BoletinSemanal%20Afech_20250121.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73915/BoletinSemanalAfech20250114.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73764/BoletinSemanalAfech_20250107.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2024/12/BoletinSemanalAfech_20241231.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73743/BoletinSemanalAfech_20241224.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73734/Boletin%20semanal%20Afech_20241217.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73725/BoletinSemanalAfech_20241210.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73702/BoletinSemanalAfech_20241203.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73690/BoletinSemanalAfech_20241126.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73686/BoletinSemanalAfech_20241119.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73678/BoletinSemanalAfech_20241112.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73660/Boletin_semanal_Afech-20241105.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73653/Boletin_semanal_Afech-20241029.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73633/BSemanalAfech_20241015.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73627/BoletinSemanalAfech_20241008.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73600/BoletinSemanalAfech_20241001.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73593/Boletin%20semanal%20Afech_20240924.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73586/BoletinSemanalAfech_20240910.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2024/08/BoletinSemanalAfech_20240903.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73539/BoletinSemanalAfech_20240827.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73535/Boletin%20semanal%20Afech_20240820.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2024/08/Boletin-semanal-Afech_20240813.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73489/Boletin%20semanal%20Afech_20240806.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73482/BoletinSemanalAfech_20240730.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73476/BoletinSemanalAfech_20240723.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73471/BoletinSsemanalAfech_20240716.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73461/Boletin%20semanal%20Afech_20240709.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73430/BoletinSemanalAfech_20240702.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2024/06/Boletin_semanal_Afech_20240625.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73404/Boletin%20semanal%20Afech_20240618.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73432/Boletin%20semanal%20Afech_20240611.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73384/BoletinSemanalAfech_20240604.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73376/BoletinsemanalAfech_20240528.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73372/BoletinsemanalAfech_20240521.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73368/BoletinSemanalAfech_20240514.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73336/BoletinSemanalAfech_20240507.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73323/BoletinSemanalAfech_20240430.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73316/Boletin%20semanalAfech_20240423.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73298/BoletinSemanalAfech_20240416.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73284/BoletinSemanalAfech_20240409.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73285/BoletinSemanalAfech_20240402.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2024/03/Boletin-semanal-Afech_20240326.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73259/Boletin%20semanal%20Afech_20240319.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73245/Boletin%20semanal%20Afech_20240312.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73236/Boletin%20semanal%20Afech_20240305.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73228/Boletin%20semanal%20Afech_20240227.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73219/Boletin%20semanal%20Afech_20240220.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73209/Boletin%20semanal%20Afech_20240213.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73188/BoletinSemanalAfech_20240206.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2024/02/BoletinSemanal-Afech_20240130.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73167/Boletin%20semanal%20Afech_20240123.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73162/BoletinSemanalAfech_20240116.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73152/BoletinSemanalAfech_20240109.xlsx",
-    "https://www.odepa.gob.cl/wp-content/uploads/2024/01/BSemanalAfech_20240102.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73130/Boletin%20semanal%20Afech_20231226.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73118/Boletin%20semanal%20Afech_20231219.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73095/BoletinSemanalAfech_20231212.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73089/BoletinsemanalAfech_20231205.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73077/BoletinSemanalAfech_20231128.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73067/Boletin%20semanal%20Afech_20231121.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73063/Boletin%20semanal%20Afech_20231114.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73049/BoletinSemanalAfech_20231107.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/73011/BoletinSemanalAfech_20231031.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72993/Boletin%20semanal%20Afech_20231024.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72977/Boletin%20semanal%20Afech_20231017.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72889/BoletinSemanalAfech_20231010.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72831/Boletin%20semanal%20Afech_20231003.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72807/Boletin%20semanal%20Afech_20230926.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72780/Boletin%20semanal%20Afech_20230919.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72763/Boletin%20semanal%20Afech_20230913.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72744/Boletin%20semanal%20Afech_20230905.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72725/Boletin%20semanal%20Afech_20230829.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72704/Boletin%20semanal%20Afech_20230822.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72686/Boletin%20semanal%20Afech_20230815.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72671/Boletin%20semanal%20Afech_20230808.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72650/BSemanalAfech_20230801.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72618/BoletinSemanalAfech_20230725.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72598/Boletin%20semanal%20Afech_20230718.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72578/Boletin%20semanal%20Afech_20230711.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72553/Boletin%20semanal%20Afech_20230704.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72540/Boletin%20semanal%20Afech_20230627.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72519/Boletin%20semanal%20Afech_20230620.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72498/Boletin%20semanal%20Afech_20230613.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72480/BoletinSemanalAfech_20230606.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72458/BoletinsemanalAfech_20230530.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72418/BoletinsemanalAfech_20230523.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72394/BoletinsemanalAfech_20230516.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72370/BoletinsemanalAfech_20230509.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72349/BoletinsemanalAfech_20230502.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72329/BoletinsemanalAfech_20230425.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72298/BoletinsemanalAfech_20230418.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72280/BoletinsemanalAfech_20230411.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72263/BoletiSemanalAfech_20230405.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72235/BoletinsemanalAfech_20230328.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72218/BoletinsemanalAfech_20230321.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72200/BoletinsemanalAfech_20230314.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72177/Boletin%20semanal%20Afech_20230307.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72153/BoletinsemanalAfech_20230228.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72136/BoletinSemanalAfech_20230221.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72119/BoletinSemanalAfech_20230214.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72104/BoletinsemanalAfech_20230207.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72086/BoletinsemanalAfech_20230131.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72065/BoletinsemanalAfech20230124.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72044/BoletinSemanalAfech_20230117.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72026/BSemanalAfech_20230110.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72019/BoletinsemanalAfech_20230103.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72015/BoletinSemanalAfech_20221227.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/72004/BoletinSemanalAfech20221221.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71994/BoletinSemanalAfech_20221213.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71969/BSemanalAfech_20221130.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71964/BSemanalAfech_20221123.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71958/BoletinSemanalAfech_20221115.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71951/BoletinSemanalAfech_20221109.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71943/BoletinsemanalAfech_20221101.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71931/BoletinSemanalAfech_20221018.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71910/BSemanalAfech_20221011.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71905/BSemanalAfech_20221004.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71896/BolSemAfech_20220927.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71887/BSemanalAfech_20220920.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71882/BAfech_20220913.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71869/BSemanalAfech_20220906.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71858/BSemanalAfech_20220830.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71788/BSemanalAfech_20220823.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71781/BSemanalAfech_20220817.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71775/BSemanalAfech_20220809.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71749/BSemanalAfech_20220803.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71732/BSemanalAfech_20220726.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71725/BSemanalAfech_20220719.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71710/BoletinSemanalAfech_20220712.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71706/BSemanalAfech_20220705.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71691/BSemanalAfech_20220628.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71655/BSemanalAfech_20220621.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71645/BSemanalAfech_20220614.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71637/BSemanalAfech_20220607.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71628/BSemanalAfech_20220531.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71620/BSemanalAfech_20220524.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71614/BSemanalAfech_20220517.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71610/BSemanalAfech_20220510.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71605/BSemanalAfech_20220503.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71595/BSemanalAfech_20220426.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71572/BSemanalAfech_20220419.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71567/BSemanalAfech_20220412.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71562/BSemanalAfech_20220405.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71553/BSemanalAfech_20220329.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71543/BSemanalAfech20220323.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71544/BSemanalAfech20220315.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71517/BSemanalAfech_20220308.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71510/BSmanal%20Afech_20220301.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71501/BSemanalAfech_20220222.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71490/BSemanalAfech_20220215.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71478/BSemanalAfech_20220208.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71468/BSemanalAfech_20220201.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71401/BSemanalAfech_20220125.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71345/BSemanalAfech_20220118.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71290/BSemanalAfech_20220104.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71284/BSemanalAfech_20211228.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71231/BSemanalAfech_20211221.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71210/BoletinSemanalAfech_20211214.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71190/BSemanalAfech_20211207.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71185/BSemanalAfech_20211130.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71178/BSemanalAfech_20211123.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71170/BSemana%20Afech_20211116.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71152/BSemanalAfech_20211109.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71124/BSemanalAfech_20211102.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71115/BSemanalAfech_20211026.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71100/BSemanalAfech_20211019.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71091/BSemanalAfech_20211012.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71079/BSemanalAfech_20211005.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71026/BoletinSemanalAfech_20210928.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/71018/BSemanalAfech_20210921.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70996/BAfech_20210914.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70964/BSemanalAfech20210907.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70928/BAfech20210831.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70921/BSemanalAfech_20210824.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70912/BSemanalAfech20210817.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70904/BSemanalAfech_20210810.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70891/Boletin%20semanal%20Afech_20210803.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70885/Boletin%20semanal%20Afech_20210727.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70867/Boletin-semanal-Afech_20210721.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70862/Boletin-semanal-Afech_20210713.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70855/Boletin%20semanal%20Afech_20210706.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70842/Boletin-semanal-Afech_20210629.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70834/Boletin-semanal-Afech_20210622.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70833/Boletin-semanal-Afech_20210615.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70814/Boletin-semanal-Afech_20210608.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70813/BSAfech_20210601.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70801/Boletin-semanal-Afech_20210525.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70792/Boletin-semanal-Afech_20210518.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70785/Boletin-semanal-Afech_20210511.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70782/Boletin-semanal-Afech_20210504.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70768/Boletin-semanal-Afech_20210427.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70750/Boletin-semanal-Afech_20210420.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70742/Boletin-semanal-Afech_20210413.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70734/Boletin-semanal-Afech_20210406.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70730/Boletin-semanal-Afech_20210330.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70727/Boletin-semanal-Afech_20210323.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70721/Boletin-semanal-Afech_20210316.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70718/Boletin-semanal-Afech_20210309.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70703/Boletin-semanal-Afech_20210302.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70696/Boletin-semanal-Afech_20210223.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70670/Boletin-semanal-Afech_20210216.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70657/Boletin-semanal-Afech_20210209.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70646/Boletin-semanal-Afech_20210202.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70640/Boletin-semanal-Afech_20210127.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70630/Boletin-semanal-Afech_20210119.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70618/Boletin-semanal-Afech_20210112.xlsx",
-    "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/70612/Boletin-semanal-Afech_20210105.xlsx",
+    "https://bibliotecadigital.odepa.gob.cl/bitstreams/8e793d86-5194-4aee-afae-18916879907d/download",
+    "https://bibliotecadigital.odepa.gob.cl/bitstreams/88166237-3f9f-42ac-8425-0e1e4a32323a/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/efef8f47-e367-430b-bb97-403bac263f5c/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/f32c8d67-2066-460f-8bf7-4a28c8022c5f/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/3faf71d5-2071-49df-a16a-43dfa4e9b8a1/download",
@@ -283,7 +13,7 @@
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/a7ba84cc-0967-41d4-a143-280e18b77682/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/61ed8ed4-0ca5-4985-8ef3-a2e86cc7c5ae/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/1ee38faa-f0f6-4242-adbe-ddf9bd9e0b9e/download",
-    "https://bibliotecadigital.odepa.gob.cl/bitstreams/52b6c986-04e8-4430-a16e-69df6c67690d/download"
+    "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260630.xlsx"
   ],
   "advertencias": [],
   "categorias": {
@@ -6728,6 +6458,66 @@
           "fecha": "2026-08-18",
           "valor": 3235,
           "ferias": 5
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2822,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2560,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 2579,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 2760,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 3080,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2910,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2843,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2857,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2699,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 2726,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 3071,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 3325,
+          "ferias": 4
         }
       ],
       "tattersall": [
@@ -11980,6 +11770,56 @@
           "fecha": "2026-08-18",
           "valor": 3002,
           "ferias": 2
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2798,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2968,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 2586,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 3225,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 3122,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2828,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 3204,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2775,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 3170,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 3128,
+          "ferias": 1
         }
       ],
       "fegosa": [
@@ -15662,21 +15502,61 @@
           "fecha": "2026-08-18",
           "valor": 2438,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2782,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2260,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2859,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2428,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2862,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2700,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 3030,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2731,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-08-18",
-        "valor": 3235,
-        "ferias": 5
+        "fecha": "2026-09-01",
+        "valor": 3325,
+        "ferias": 4
       },
       "ultimo_tattersall": {
-        "fecha": "2026-08-18",
-        "valor": 3002,
-        "ferias": 2
+        "fecha": "2026-09-01",
+        "valor": 3128,
+        "ferias": 1
       },
       "ultimo_fegosa": {
-        "fecha": "2026-08-18",
-        "valor": 2438,
+        "fecha": "2026-09-01",
+        "valor": 2731,
         "ferias": 1
       }
     },
@@ -22156,6 +22036,66 @@
           "fecha": "2026-08-18",
           "valor": 2857,
           "ferias": 5
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 3001,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 3289,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 3165,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 3014,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2759,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2741,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2899,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2964,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2893,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 3042,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2804,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2798,
+          "ferias": 4
         }
       ],
       "tattersall": [
@@ -27483,6 +27423,56 @@
           "fecha": "2026-08-18",
           "valor": 2984,
           "ferias": 2
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 3060,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 3006,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 3462,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2755,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2539,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2846,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2979,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2808,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2836,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2762,
+          "ferias": 1
         }
       ],
       "fegosa": [
@@ -31725,21 +31715,61 @@
           "fecha": "2026-08-18",
           "valor": 2461,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 3123,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2789,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2788,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2637,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 3095,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2616,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2483,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2693,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-08-18",
-        "valor": 2857,
-        "ferias": 5
+        "fecha": "2026-09-01",
+        "valor": 2798,
+        "ferias": 4
       },
       "ultimo_tattersall": {
-        "fecha": "2026-08-18",
-        "valor": 2984,
-        "ferias": 2
+        "fecha": "2026-09-01",
+        "valor": 2762,
+        "ferias": 1
       },
       "ultimo_fegosa": {
-        "fecha": "2026-08-18",
-        "valor": 2461,
+        "fecha": "2026-09-01",
+        "valor": 2693,
         "ferias": 1
       }
     },
@@ -39705,6 +39735,66 @@
           "fecha": "2026-08-18",
           "valor": 2930,
           "ferias": 5
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2875,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2693,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 2564,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 3030,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2940,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 3120,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2935,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2708,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2703,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 2770,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 3017,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 3190,
+          "ferias": 4
         }
       ],
       "tattersall": [
@@ -45012,6 +45102,56 @@
           "fecha": "2026-08-18",
           "valor": 2659,
           "ferias": 2
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2930,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2354,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 2516,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2987,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 3026,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 3046,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2701,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2880,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 3098,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 3223,
+          "ferias": 1
         }
       ],
       "fegosa": [
@@ -49404,21 +49544,66 @@
           "fecha": "2026-08-18",
           "valor": 2646,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2689,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2610,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2916,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2642,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2799,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2564,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2217,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2804,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2642,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-08-18",
-        "valor": 2930,
-        "ferias": 5
+        "fecha": "2026-09-01",
+        "valor": 3190,
+        "ferias": 4
       },
       "ultimo_tattersall": {
-        "fecha": "2026-08-18",
-        "valor": 2659,
-        "ferias": 2
+        "fecha": "2026-09-01",
+        "valor": 3223,
+        "ferias": 1
       },
       "ultimo_fegosa": {
-        "fecha": "2026-08-18",
-        "valor": 2646,
+        "fecha": "2026-09-01",
+        "valor": 2642,
         "ferias": 1
       }
     },
@@ -55898,6 +56083,66 @@
           "fecha": "2026-08-18",
           "valor": 2718,
           "ferias": 5
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2966,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 3154,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 2682,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-22",
+          "valor": 2890,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2685,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2851,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2893,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2959,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2661,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-08-29",
+          "valor": 2912,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2759,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2663,
+          "ferias": 4
         }
       ],
       "tattersall": [
@@ -61200,6 +61445,56 @@
           "fecha": "2026-08-18",
           "valor": 2773,
           "ferias": 2
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 3077,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2628,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-21",
+          "valor": 2489,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2676,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2523,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2765,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2864,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2639,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2776,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2204,
+          "ferias": 1
         }
       ],
       "fegosa": [
@@ -65607,21 +65902,66 @@
           "fecha": "2026-08-18",
           "valor": 2461,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-08-19",
+          "valor": 2839,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-20",
+          "valor": 2849,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-24",
+          "valor": 2485,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-25",
+          "valor": 2524,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-26",
+          "valor": 2929,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-27",
+          "valor": 2898,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-28",
+          "valor": 2473,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-08-31",
+          "valor": 2595,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-09-01",
+          "valor": 2724,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-08-18",
-        "valor": 2718,
-        "ferias": 5
+        "fecha": "2026-09-01",
+        "valor": 2663,
+        "ferias": 4
       },
       "ultimo_tattersall": {
-        "fecha": "2026-08-18",
-        "valor": 2773,
-        "ferias": 2
+        "fecha": "2026-09-01",
+        "valor": 2204,
+        "ferias": 1
       },
       "ultimo_fegosa": {
-        "fecha": "2026-08-18",
-        "valor": 2461,
+        "fecha": "2026-09-01",
+        "valor": 2724,
         "ferias": 1
       }
     },
@@ -67920,5 +68260,5 @@
       }
     }
   },
-  "actualizado_en_utc": "2026-08-24T02:59:33+00:00"
+  "actualizado_en_utc": "2026-09-02T21:04:37+00:00"
 }
