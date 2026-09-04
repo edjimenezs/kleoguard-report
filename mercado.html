@@ -127,15 +127,24 @@
       <p class="model-warning" id="forecast-warning">—</p>
     </section>
 
+    <section class="panel" aria-labelledby="validation-title">
+      <p class="eyebrow">Validación histórica · fuera de muestra</p>
+      <h2 id="validation-title">Cómo habría proyectado 2026 usando sólo 2024 y 2025</h2>
+      <p id="validation-description">Cargando comparación histórica…</p>
+      <div class="model-grid" id="validation-metrics"></div>
+      <div class="chart forecast-chart" id="validation-chart" aria-label="Comparación entre proyección histórica y precio observado en 2026"></div>
+      <p class="model-warning" id="validation-warning">—</p>
+    </section>
+
     <section class="panel" aria-labelledby="modelo-title">
       <p class="eyebrow">Cómo se calcula</p>
       <h2 id="modelo-title">Una estimación simple y comprobable</h2>
       <p>La prueba toma precios que ya se publicaron: cómo se movió la categoría en las semanas previas y en la misma época del año. No usa información del predio, facturas ni datos futuros.</p>
       <div class="model-grid">
-        <article class="model-card"><h3>Novillo Gordo</h3><p><strong>Prueba histórica</strong><br>Al simular 2025, la diferencia promedio fue de $65/kg. Al simular 2026, fue de $93/kg.</p></article>
-        <article class="model-card"><h3>Novillo Engorda</h3><p><strong>Prueba histórica</strong><br>Al simular 2025, la diferencia promedio fue de $80/kg. Al simular 2026, fue de $81/kg.</p></article>
-        <article class="model-card"><h3>Vaquilla Gorda</h3><p><strong>Serie pública desde 2022</strong><br>La referencia se muestra con el mismo método explicable. Su precisión histórica se informará después de validarla por categoría.</p></article>
-        <article class="model-card"><h3>Vaquilla Engorda</h3><p><strong>Serie pública desde 2022</strong><br>La referencia se muestra con el mismo método explicable. Su precisión histórica se informará después de validarla por categoría.</p></article>
+        <article class="model-card"><h3>Datos que entran</h3><p><strong>Precio público semanal</strong><br>Promedio simple de las ferias informadas por ODEPA / AFECH para cada categoría.</p></article>
+        <article class="model-card"><h3>Peso reciente</h3><p><strong>60 % último precio</strong><br>Más 25 % del promedio de las últimas cuatro semanas.</p></article>
+        <article class="model-card"><h3>Estacionalidad</h3><p><strong>15 % misma semana ISO</strong><br>Si esa semana no tiene historia, se usa el promedio de las últimas 13 semanas.</p></article>
+        <article class="model-card"><h3>Qué no entra</h3><p><strong>Sin datos futuros ni privados</strong><br>Tampoco Brasil, China, SII, SAG, banco, calidad ni peso del lote.</p></article>
       </div>
       <p class="model-warning"><strong>Conclusión por ahora:</strong> la meta es bajar de $40/kg o de 1,5%. Como estas pruebas aún no llegan a esa meta, Cleo no muestra una recomendación de compra o venta: el precio publicado arriba sigue siendo la referencia para decidir.</p>
       <p>Brasil y China se siguen abajo como contexto. Todavía <strong>no cambian este cálculo</strong>: se incorporarán sólo si, al probarlos contra la historia, realmente reducen el error sin usar información futura.</p>
@@ -183,7 +192,7 @@
     const fechaLarga = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'numeric', month:'long', year:'numeric'}) : 'sin dato';
     const fechaCorta = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'2-digit', month:'2-digit'}) : '—';
     const byId = id => document.getElementById(id);
-    let mercado, contexto, pronosticos, chartHistory, chartComparison, chartForecast;
+    let mercado, contexto, pronosticos, validaciones, chartHistory, chartComparison, chartForecast, chartValidation;
     function ultimo(serie) { return serie && serie.length ? serie[serie.length - 1] : null; }
     function writeMetric(prefix, item) {
       byId(prefix + '-price').textContent = item ? CLP.format(item.valor) + '/kg' : 'Sin dato';
@@ -223,6 +232,7 @@
       const valorMin = Math.min(...disponibles.map(x=>x.valor)), valorMax = Math.max(...disponibles.map(x=>x.valor));
       byId('insight').textContent = disponibles.length > 1 ? 'Para ' + categoria.toLowerCase() + ', la dispersión entre los últimos datos disponibles de operadores y promedio publicado es de ' + CLP.format(valorMax - valorMin) + '/kg. Compara fechas antes de tomar una decisión.' : 'Todavía no hay suficientes observaciones por operador para comparar esta categoría.';
       renderForecast(categoria);
+      renderValidation(categoria);
     }
     function renderForecast(categoria) {
       const forecast = pronosticos && pronosticos.categorias && pronosticos.categorias[categoria];
@@ -244,6 +254,37 @@
       }, true);
       byId('forecast-warning').innerHTML = '<strong>Importante:</strong> esta es una estimación de tendencia, no un precio comprometido. La prueba histórica todavía no llega a la meta de precisión de Cleo (menos de $40/kg o 1,5%). Antes de comprar o vender, confirma el valor con la feria.';
     }
+    function metric(label, value, detail) {
+      return '<article class="model-card"><h3>' + label + '</h3><p><strong>' + value + '</strong><br>' + detail + '</p></article>';
+    }
+    function renderValidation(categoria) {
+      const validation = validaciones && validaciones.categorias && validaciones.categorias[categoria];
+      if (!validation) return;
+      const rows = validation.proyeccion_y_observado || [];
+      const observados = rows.filter(row => row.observado !== null && row.observado !== undefined);
+      byId('validation-title').textContent = 'Cómo habría proyectado 2026 · ' + categoria;
+      byId('validation-description').textContent = 'Simulación generada el ' + fechaLarga(validation.corte_entrenamiento) + ' con ' + validation.filas_entrenamiento + ' semanas publicadas entre ' + fechaLarga(validation.inicio_entrenamiento) + ' y el cierre de 2025. Los precios observados de 2026 se incorporan sólo después, para medir el resultado.';
+      byId('validation-metrics').innerHTML = [
+        metric('Datos de entrenamiento', validation.filas_entrenamiento + ' semanas', 'Sólo 2024–2025; ningún precio de 2026 entra al cálculo.'),
+        metric('Semanas comparables', validation.semanas_con_observado || '—', 'Jornadas 2026 hoy disponibles en la fuente pública.'),
+        metric('Error absoluto medio', validation.error_abs_medio !== null ? CLP.format(validation.error_abs_medio) + '/kg' : 'Sin dato', 'Distancia promedio entre estimación y precio observado.'),
+        metric('Error porcentual medio', validation.error_pct_abs_medio !== null ? validation.error_pct_abs_medio + '%' : 'Sin dato', 'La cobertura del rango fue ' + (validation.cobertura_rango_pct !== null ? validation.cobertura_rango_pct + '%' : 'sin dato') + '.')
+      ].join('');
+      chartValidation.setOption({
+        animationDuration:450, grid:{left:72,right:22,top:34,bottom:58},
+        tooltip:{trigger:'axis', formatter:params => { const row=rows[params[0].dataIndex]; return '<strong>Semana del ' + fechaLarga(row.fecha) + '</strong><br>Proyección: ' + CLP.format(row.estimado) + '/kg<br>Observado: ' + (row.observado === null ? 'sin jornada publicada' : CLP.format(row.observado) + '/kg') + '<br>Rango: ' + CLP.format(row.minimo) + ' a ' + CLP.format(row.maximo) + '/kg'; }},
+        legend:{bottom:0}, xAxis:{type:'category',data:rows.map(row=>fechaCorta(row.fecha)),axisLabel:{rotate:35}},
+        yAxis:{type:'value',axisLabel:{formatter:value=>CLP.format(value)},splitLine:{lineStyle:{color:'#e7ddc9'}}},
+        series:[
+          {name:'Rango inferior',type:'line',data:rows.map(row=>row.minimo),symbol:'none',lineStyle:{type:'dashed',width:1.5,color:'#b08042'}},
+          {name:'Rango superior',type:'line',data:rows.map(row=>row.maximo),symbol:'none',lineStyle:{type:'dashed',width:1.5,color:'#b08042'}},
+          {name:'Proyección 2026',type:'line',data:rows.map(row=>row.estimado),smooth:.18,symbol:'none',lineStyle:{width:3,color:'#4e753f'}},
+          {name:'Observado 2026',type:'line',data:rows.map(row=>row.observado),connectNulls:false,symbolSize:6,lineStyle:{width:2.5,color:'#285f89'},itemStyle:{color:'#285f89'}}
+        ]
+      }, true);
+      const mensaje = observados.length ? 'Con las ' + observados.length + ' semanas 2026 comparables disponibles, este ensayo muestra el desempeño real de una proyección anual generada sin conocer 2026.' : 'Todavía no existen semanas comparables de 2026 en la fuente pública.';
+      byId('validation-warning').innerHTML = '<strong>Lectura correcta:</strong> ' + mensaje + ' No es una proyección que se haya actualizado con los precios de 2026; por eso permite detectar si la regla aporta valor antes de usarla para una decisión.';
+    }
     function renderContexto() {
       byId('contexto-intro').textContent = contexto.alcance + ' Estas señales ayudan a entender el entorno, pero todavía no modifican el cálculo experimental de Cleo.';
       byId('context-date').textContent = 'Corte del radar: ' + fechaLarga(contexto.actualizado_en_utc.slice(0, 10)) + '.';
@@ -256,9 +297,9 @@
     }
     async function iniciar() {
       try {
-        const [marketResponse, contextResponse, forecastResponse] = await Promise.all([fetch('market-data.json', {cache:'no-store'}), fetch('market-context.json', {cache:'no-store'}), fetch('market-forecast.json', {cache:'no-store'})]);
-        if (!marketResponse.ok || !contextResponse.ok || !forecastResponse.ok) throw new Error('No fue posible cargar las fuentes públicas de mercado');
-        [mercado, contexto, pronosticos] = await Promise.all([marketResponse.json(), contextResponse.json(), forecastResponse.json()]);
+        const [marketResponse, contextResponse, forecastResponse, validationResponse] = await Promise.all([fetch('market-data.json', {cache:'no-store'}), fetch('market-context.json', {cache:'no-store'}), fetch('market-forecast.json', {cache:'no-store'}), fetch('market-validation-2026.json', {cache:'no-store'})]);
+        if (!marketResponse.ok || !contextResponse.ok || !forecastResponse.ok || !validationResponse.ok) throw new Error('No fue posible cargar las fuentes públicas de mercado');
+        [mercado, contexto, pronosticos, validaciones] = await Promise.all([marketResponse.json(), contextResponse.json(), forecastResponse.json(), validationResponse.json()]);
         const selector = byId('categoria');
         const categoriasPermitidas = ['Novillo Gordo', 'Novillo Engorda', 'Vaquilla Gorda', 'Vaquilla Engorda'];
         categoriasPermitidas.filter(nombre => mercado.categorias[nombre]).forEach(nombre => { const option=document.createElement('option'); option.value=nombre; option.textContent=nombre; selector.append(option); });
@@ -266,8 +307,8 @@
         const fecha = fechaLarga(mercado.ultima_jornada_publicada);
         byId('notice').innerHTML = '<strong>Dato oficial más reciente:</strong> la última jornada publicada encontrada es el ' + fecha + '. La pantalla no presenta un precio de hoy si Tattersall, Fegosa o AFECH aún no han publicado un remate posterior.';
         byId('source').textContent = mercado.metodo + ' Actualizado automáticamente: ' + new Date(mercado.actualizado_en_utc).toLocaleString('es-CL') + '.';
-        chartHistory = echarts.init(byId('history-chart')); chartComparison = echarts.init(byId('comparison-chart')); chartForecast = echarts.init(byId('forecast-chart'));
-        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize(); chartForecast.resize();}); render(); renderContexto();
+        chartHistory = echarts.init(byId('history-chart')); chartComparison = echarts.init(byId('comparison-chart')); chartForecast = echarts.init(byId('forecast-chart')); chartValidation = echarts.init(byId('validation-chart'));
+        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize(); chartForecast.resize(); chartValidation.resize();}); render(); renderContexto();
       } catch (error) { byId('notice').textContent = 'No fue posible cargar la fotografía pública de mercado. Reintenta en unos minutos.'; console.error(error); }
     }
     iniciar();
