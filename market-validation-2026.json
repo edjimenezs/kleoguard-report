@@ -10,10 +10,10 @@
       "filas_entrenamiento": 104,
       "modelo": "60 % último precio, 25 % promedio de 4 semanas y 15 % estacionalidad semanal.",
       "variacion_referencia_pct": 5.1,
-      "semanas_con_observado": 27,
-      "error_abs_medio": 557,
+      "semanas_con_observado": 29,
+      "error_abs_medio": 558,
       "error_pct_abs_medio": 19.4,
-      "cobertura_rango_pct": 3.7,
+      "cobertura_rango_pct": 3.4,
       "proyeccion_y_observado": [
         {
           "fecha": "2026-01-05",
@@ -244,21 +244,21 @@
           "estimado": 2287,
           "minimo": 2171,
           "maximo": 2403,
-          "observado": 3116
+          "observado": 2825
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2298,
           "minimo": 2182,
           "maximo": 2414,
-          "observado": null
+          "observado": 2852
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2324,
           "minimo": 2206,
           "maximo": 2442,
-          "observado": null
+          "observado": 3198
         },
         {
           "fecha": "2026-09-07",
@@ -442,8 +442,8 @@
           "estimado": 2283,
           "minimo": 2167,
           "maximo": 2398,
-          "observado": 2948,
-          "semanas_observadas": 3
+          "observado": 2921,
+          "semanas_observadas": 5
         },
         {
           "mes": "2026-09",
@@ -776,8 +776,8 @@
       "filas_entrenamiento": 104,
       "modelo": "60 % último precio, 25 % promedio de 4 semanas y 15 % estacionalidad semanal.",
       "variacion_referencia_pct": 4.6,
-      "semanas_con_observado": 27,
-      "error_abs_medio": 654,
+      "semanas_con_observado": 29,
+      "error_abs_medio": 658,
       "error_pct_abs_medio": 23.5,
       "cobertura_rango_pct": 0,
       "proyeccion_y_observado": [
@@ -1010,21 +1010,21 @@
           "estimado": 2182,
           "minimo": 2081,
           "maximo": 2283,
-          "observado": 2806
+          "observado": 3013
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2213,
           "minimo": 2111,
           "maximo": 2315,
-          "observado": null
+          "observado": 2883
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2238,
           "minimo": 2135,
           "maximo": 2341,
-          "observado": null
+          "observado": 2801
         },
         {
           "fecha": "2026-09-07",
@@ -1208,8 +1208,8 @@
           "estimado": 2183,
           "minimo": 2082,
           "maximo": 2283,
-          "observado": 2875,
-          "semanas_observadas": 3
+          "observado": 2904,
+          "semanas_observadas": 5
         },
         {
           "mes": "2026-09",
@@ -1542,9 +1542,9 @@
       "filas_entrenamiento": 104,
       "modelo": "60 % último precio, 25 % promedio de 4 semanas y 15 % estacionalidad semanal.",
       "variacion_referencia_pct": 5.1,
-      "semanas_con_observado": 27,
-      "error_abs_medio": 600,
-      "error_pct_abs_medio": 21.6,
+      "semanas_con_observado": 29,
+      "error_abs_medio": 607,
+      "error_pct_abs_medio": 21.7,
       "cobertura_rango_pct": 0,
       "proyeccion_y_observado": [
         {
@@ -1776,21 +1776,21 @@
           "estimado": 2198,
           "minimo": 2085,
           "maximo": 2311,
-          "observado": 2946
+          "observado": 2842
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2210,
           "minimo": 2096,
           "maximo": 2324,
-          "observado": null
+          "observado": 2863
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2235,
           "minimo": 2120,
           "maximo": 2350,
-          "observado": null
+          "observado": 3104
         },
         {
           "fecha": "2026-09-07",
@@ -1974,8 +1974,8 @@
           "estimado": 2197,
           "minimo": 2084,
           "maximo": 2310,
-          "observado": 2865,
-          "semanas_observadas": 3
+          "observado": 2891,
+          "semanas_observadas": 5
         },
         {
           "mes": "2026-09",
@@ -2308,9 +2308,9 @@
       "filas_entrenamiento": 104,
       "modelo": "60 % último precio, 25 % promedio de 4 semanas y 15 % estacionalidad semanal.",
       "variacion_referencia_pct": 5.0,
-      "semanas_con_observado": 27,
-      "error_abs_medio": 647,
-      "error_pct_abs_medio": 24.7,
+      "semanas_con_observado": 29,
+      "error_abs_medio": 658,
+      "error_pct_abs_medio": 25.0,
       "cobertura_rango_pct": 0,
       "proyeccion_y_observado": [
         {
@@ -2542,21 +2542,21 @@
           "estimado": 2015,
           "minimo": 1915,
           "maximo": 2115,
-          "observado": 2653
+          "observado": 2833
         },
         {
           "fecha": "2026-08-24",
           "estimado": 2044,
           "minimo": 1943,
           "maximo": 2145,
-          "observado": null
+          "observado": 2827
         },
         {
           "fecha": "2026-08-31",
           "estimado": 2070,
           "minimo": 1967,
           "maximo": 2173,
-          "observado": null
+          "observado": 2711
         },
         {
           "fecha": "2026-09-07",
@@ -2740,8 +2740,8 @@
           "estimado": 2014,
           "minimo": 1914,
           "maximo": 2113,
-          "observado": 2700,
-          "semanas_observadas": 3
+          "observado": 2763,
+          "semanas_observadas": 5
         },
         {
           "mes": "2026-09",
