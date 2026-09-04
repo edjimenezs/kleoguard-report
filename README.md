@@ -13,7 +13,7 @@ No contiene correos, archivos adjuntos, RUT, DIIO ni documentos individuales.
 
 `market-data.json` es una caché generada a partir de datos públicos de ODEPA/AFECH. Contiene precios por categoría, feria y fecha; no incorpora información de correos, SII, SAG ni del productor.
 
-`market-forecast.json` contiene la referencia futura de cuatro semanas. `market-validation-2026.json` documenta una prueba fuera de muestra: proyecta todo 2026 usando únicamente precios semanales de 2024 y 2025 y luego compara esa proyección con las jornadas 2026 efectivamente publicadas. Los valores observados de 2026 no se usan en el cálculo.
+`market-forecast.json` contiene la referencia futura de cuatro semanas. `market-validation-2026.json` documenta una prueba fuera de muestra: proyecta todo 2026 usando únicamente precios semanales de 2024 y 2025 y luego compara esa proyección con las jornadas 2026 efectivamente publicadas. También entrega agregados mensuales de esa prueba y un escenario mensual experimental hasta 2028. Los valores observados de 2026 no se usan en el cálculo.
 
 Para actualizarla localmente:
 

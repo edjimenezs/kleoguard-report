@@ -379,6 +379,394 @@
           "maximo": 2631,
           "observado": null
         }
+      ],
+      "proyeccion_mensual_2026": [
+        {
+          "mes": "2026-01",
+          "estimado": 2554,
+          "minimo": 2425,
+          "maximo": 2683,
+          "observado": 2731,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2367,
+          "minimo": 2247,
+          "maximo": 2487,
+          "observado": 2784,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 2241,
+          "minimo": 2127,
+          "maximo": 2354,
+          "observado": 2928,
+          "semanas_observadas": 2
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 2170,
+          "minimo": 2060,
+          "maximo": 2280,
+          "observado": 2714,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 2140,
+          "minimo": 2032,
+          "maximo": 2248,
+          "observado": 2968,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 2134,
+          "minimo": 2026,
+          "maximo": 2241,
+          "observado": 2796,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 2184,
+          "minimo": 2074,
+          "maximo": 2295,
+          "observado": 2782,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2283,
+          "minimo": 2167,
+          "maximo": 2398,
+          "observado": 2948,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2402,
+          "minimo": 2280,
+          "maximo": 2524,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2470,
+          "minimo": 2345,
+          "maximo": 2595,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2486,
+          "minimo": 2360,
+          "maximo": 2612,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2500,
+          "minimo": 2374,
+          "maximo": 2627,
+          "observado": null,
+          "semanas_observadas": 0
+        }
+      ],
+      "proyeccion_mensual_2026_2028": [
+        {
+          "mes": "2026-01",
+          "estimado": 2554,
+          "minimo": 2425,
+          "maximo": 2683,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2367,
+          "minimo": 2247,
+          "maximo": 2487,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 2241,
+          "minimo": 2127,
+          "maximo": 2354,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 2170,
+          "minimo": 2060,
+          "maximo": 2280,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 2140,
+          "minimo": 2032,
+          "maximo": 2248,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 2134,
+          "minimo": 2026,
+          "maximo": 2241,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 2184,
+          "minimo": 2074,
+          "maximo": 2295,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2283,
+          "minimo": 2167,
+          "maximo": 2398,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2402,
+          "minimo": 2280,
+          "maximo": 2524,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2470,
+          "minimo": 2345,
+          "maximo": 2595,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2486,
+          "minimo": 2360,
+          "maximo": 2612,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2500,
+          "minimo": 2374,
+          "maximo": 2627,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-01",
+          "estimado": 2396,
+          "minimo": 2274,
+          "maximo": 2517,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-02",
+          "estimado": 2258,
+          "minimo": 2144,
+          "maximo": 2372,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-03",
+          "estimado": 2173,
+          "minimo": 2063,
+          "maximo": 2283,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-04",
+          "estimado": 2125,
+          "minimo": 2018,
+          "maximo": 2232,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-05",
+          "estimado": 2109,
+          "minimo": 2003,
+          "maximo": 2216,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-06",
+          "estimado": 2108,
+          "minimo": 2002,
+          "maximo": 2215,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-07",
+          "estimado": 2158,
+          "minimo": 2050,
+          "maximo": 2268,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-08",
+          "estimado": 2251,
+          "minimo": 2137,
+          "maximo": 2365,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-09",
+          "estimado": 2373,
+          "minimo": 2253,
+          "maximo": 2493,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-10",
+          "estimado": 2454,
+          "minimo": 2330,
+          "maximo": 2578,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-11",
+          "estimado": 2485,
+          "minimo": 2359,
+          "maximo": 2611,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-12",
+          "estimado": 2495,
+          "minimo": 2368,
+          "maximo": 2621,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-01",
+          "estimado": 2376,
+          "minimo": 2256,
+          "maximo": 2497,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-02",
+          "estimado": 2234,
+          "minimo": 2122,
+          "maximo": 2348,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-03",
+          "estimado": 2166,
+          "minimo": 2056,
+          "maximo": 2275,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-04",
+          "estimado": 2125,
+          "minimo": 2018,
+          "maximo": 2232,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-05",
+          "estimado": 2109,
+          "minimo": 2003,
+          "maximo": 2216,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-06",
+          "estimado": 2108,
+          "minimo": 2002,
+          "maximo": 2215,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-07",
+          "estimado": 2166,
+          "minimo": 2057,
+          "maximo": 2276,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-08",
+          "estimado": 2265,
+          "minimo": 2150,
+          "maximo": 2379,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-09",
+          "estimado": 2373,
+          "minimo": 2253,
+          "maximo": 2493,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-10",
+          "estimado": 2459,
+          "minimo": 2335,
+          "maximo": 2583,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-11",
+          "estimado": 2486,
+          "minimo": 2360,
+          "maximo": 2612,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-12",
+          "estimado": 2495,
+          "minimo": 2368,
+          "maximo": 2621,
+          "observado": null,
+          "semanas_observadas": 0
+        }
       ]
     },
     "Novillo Engorda": {
@@ -756,6 +1144,394 @@
           "minimo": 2274,
           "maximo": 2494,
           "observado": null
+        }
+      ],
+      "proyeccion_mensual_2026": [
+        {
+          "mes": "2026-01",
+          "estimado": 2330,
+          "minimo": 2222,
+          "maximo": 2436,
+          "observado": 2635,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2173,
+          "minimo": 2073,
+          "maximo": 2274,
+          "observado": 2691,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 2084,
+          "minimo": 1988,
+          "maximo": 2180,
+          "observado": 2968,
+          "semanas_observadas": 2
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 2041,
+          "minimo": 1947,
+          "maximo": 2135,
+          "observado": 2843,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 2013,
+          "minimo": 1920,
+          "maximo": 2106,
+          "observado": 2756,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 1999,
+          "minimo": 1907,
+          "maximo": 2091,
+          "observado": 2755,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 2058,
+          "minimo": 1964,
+          "maximo": 2153,
+          "observado": 2737,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2183,
+          "minimo": 2082,
+          "maximo": 2283,
+          "observado": 2875,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2272,
+          "minimo": 2168,
+          "maximo": 2377,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2365,
+          "minimo": 2256,
+          "maximo": 2474,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2403,
+          "minimo": 2292,
+          "maximo": 2514,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2389,
+          "minimo": 2279,
+          "maximo": 2499,
+          "observado": null,
+          "semanas_observadas": 0
+        }
+      ],
+      "proyeccion_mensual_2026_2028": [
+        {
+          "mes": "2026-01",
+          "estimado": 2330,
+          "minimo": 2222,
+          "maximo": 2436,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2173,
+          "minimo": 2073,
+          "maximo": 2274,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 2084,
+          "minimo": 1988,
+          "maximo": 2180,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 2041,
+          "minimo": 1947,
+          "maximo": 2135,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 2013,
+          "minimo": 1920,
+          "maximo": 2106,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 1999,
+          "minimo": 1907,
+          "maximo": 2091,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 2058,
+          "minimo": 1964,
+          "maximo": 2153,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2183,
+          "minimo": 2082,
+          "maximo": 2283,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2272,
+          "minimo": 2168,
+          "maximo": 2377,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2365,
+          "minimo": 2256,
+          "maximo": 2474,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2403,
+          "minimo": 2292,
+          "maximo": 2514,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2389,
+          "minimo": 2279,
+          "maximo": 2499,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-01",
+          "estimado": 2267,
+          "minimo": 2162,
+          "maximo": 2372,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-02",
+          "estimado": 2128,
+          "minimo": 2030,
+          "maximo": 2226,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-03",
+          "estimado": 2054,
+          "minimo": 1959,
+          "maximo": 2149,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-04",
+          "estimado": 2022,
+          "minimo": 1928,
+          "maximo": 2114,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-05",
+          "estimado": 1998,
+          "minimo": 1906,
+          "maximo": 2090,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-06",
+          "estimado": 1985,
+          "minimo": 1894,
+          "maximo": 2076,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-07",
+          "estimado": 2032,
+          "minimo": 1938,
+          "maximo": 2125,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-08",
+          "estimado": 2150,
+          "minimo": 2051,
+          "maximo": 2249,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-09",
+          "estimado": 2254,
+          "minimo": 2150,
+          "maximo": 2358,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-10",
+          "estimado": 2342,
+          "minimo": 2234,
+          "maximo": 2450,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-11",
+          "estimado": 2397,
+          "minimo": 2287,
+          "maximo": 2508,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-12",
+          "estimado": 2395,
+          "minimo": 2285,
+          "maximo": 2505,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-01",
+          "estimado": 2246,
+          "minimo": 2143,
+          "maximo": 2350,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-02",
+          "estimado": 2106,
+          "minimo": 2008,
+          "maximo": 2202,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-03",
+          "estimado": 2046,
+          "minimo": 1952,
+          "maximo": 2140,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-04",
+          "estimado": 2020,
+          "minimo": 1928,
+          "maximo": 2114,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-05",
+          "estimado": 1998,
+          "minimo": 1906,
+          "maximo": 2090,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-06",
+          "estimado": 1985,
+          "minimo": 1894,
+          "maximo": 2076,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-07",
+          "estimado": 2043,
+          "minimo": 1949,
+          "maximo": 2137,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-08",
+          "estimado": 2165,
+          "minimo": 2065,
+          "maximo": 2265,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-09",
+          "estimado": 2254,
+          "minimo": 2150,
+          "maximo": 2358,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-10",
+          "estimado": 2351,
+          "minimo": 2242,
+          "maximo": 2459,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-11",
+          "estimado": 2400,
+          "minimo": 2289,
+          "maximo": 2510,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-12",
+          "estimado": 2395,
+          "minimo": 2285,
+          "maximo": 2505,
+          "observado": null,
+          "semanas_observadas": 0
         }
       ]
     },
@@ -1135,6 +1911,394 @@
           "maximo": 2521,
           "observado": null
         }
+      ],
+      "proyeccion_mensual_2026": [
+        {
+          "mes": "2026-01",
+          "estimado": 2360,
+          "minimo": 2238,
+          "maximo": 2482,
+          "observado": 2581,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2208,
+          "minimo": 2094,
+          "maximo": 2322,
+          "observado": 2758,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 2110,
+          "minimo": 2002,
+          "maximo": 2218,
+          "observado": 2836,
+          "semanas_observadas": 2
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 2069,
+          "minimo": 1963,
+          "maximo": 2176,
+          "observado": 2693,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 2048,
+          "minimo": 1942,
+          "maximo": 2153,
+          "observado": 2819,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 2045,
+          "minimo": 1940,
+          "maximo": 2150,
+          "observado": 2714,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 2102,
+          "minimo": 1994,
+          "maximo": 2210,
+          "observado": 2776,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2197,
+          "minimo": 2084,
+          "maximo": 2310,
+          "observado": 2865,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2271,
+          "minimo": 2154,
+          "maximo": 2388,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2348,
+          "minimo": 2227,
+          "maximo": 2469,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2396,
+          "minimo": 2273,
+          "maximo": 2520,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2408,
+          "minimo": 2284,
+          "maximo": 2532,
+          "observado": null,
+          "semanas_observadas": 0
+        }
+      ],
+      "proyeccion_mensual_2026_2028": [
+        {
+          "mes": "2026-01",
+          "estimado": 2360,
+          "minimo": 2238,
+          "maximo": 2482,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2208,
+          "minimo": 2094,
+          "maximo": 2322,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 2110,
+          "minimo": 2002,
+          "maximo": 2218,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 2069,
+          "minimo": 1963,
+          "maximo": 2176,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 2048,
+          "minimo": 1942,
+          "maximo": 2153,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 2045,
+          "minimo": 1940,
+          "maximo": 2150,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 2102,
+          "minimo": 1994,
+          "maximo": 2210,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2197,
+          "minimo": 2084,
+          "maximo": 2310,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2271,
+          "minimo": 2154,
+          "maximo": 2388,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2348,
+          "minimo": 2227,
+          "maximo": 2469,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2396,
+          "minimo": 2273,
+          "maximo": 2520,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2408,
+          "minimo": 2284,
+          "maximo": 2532,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-01",
+          "estimado": 2294,
+          "minimo": 2176,
+          "maximo": 2411,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-02",
+          "estimado": 2156,
+          "minimo": 2046,
+          "maximo": 2266,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-03",
+          "estimado": 2077,
+          "minimo": 1970,
+          "maximo": 2184,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-04",
+          "estimado": 2044,
+          "minimo": 1938,
+          "maximo": 2149,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-05",
+          "estimado": 2032,
+          "minimo": 1927,
+          "maximo": 2136,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-06",
+          "estimado": 2028,
+          "minimo": 1923,
+          "maximo": 2132,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-07",
+          "estimado": 2082,
+          "minimo": 1976,
+          "maximo": 2190,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-08",
+          "estimado": 2170,
+          "minimo": 2059,
+          "maximo": 2282,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-09",
+          "estimado": 2252,
+          "minimo": 2136,
+          "maximo": 2368,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-10",
+          "estimado": 2330,
+          "minimo": 2210,
+          "maximo": 2449,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-11",
+          "estimado": 2388,
+          "minimo": 2265,
+          "maximo": 2511,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-12",
+          "estimado": 2410,
+          "minimo": 2286,
+          "maximo": 2533,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-01",
+          "estimado": 2274,
+          "minimo": 2157,
+          "maximo": 2391,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-02",
+          "estimado": 2137,
+          "minimo": 2028,
+          "maximo": 2247,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-03",
+          "estimado": 2070,
+          "minimo": 1964,
+          "maximo": 2176,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-04",
+          "estimado": 2045,
+          "minimo": 1940,
+          "maximo": 2150,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-05",
+          "estimado": 2032,
+          "minimo": 1928,
+          "maximo": 2137,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-06",
+          "estimado": 2028,
+          "minimo": 1924,
+          "maximo": 2132,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-07",
+          "estimado": 2090,
+          "minimo": 1982,
+          "maximo": 2197,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-08",
+          "estimado": 2183,
+          "minimo": 2071,
+          "maximo": 2295,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-09",
+          "estimado": 2252,
+          "minimo": 2136,
+          "maximo": 2368,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-10",
+          "estimado": 2337,
+          "minimo": 2217,
+          "maximo": 2457,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-11",
+          "estimado": 2393,
+          "minimo": 2270,
+          "maximo": 2516,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-12",
+          "estimado": 2410,
+          "minimo": 2286,
+          "maximo": 2533,
+          "observado": null,
+          "semanas_observadas": 0
+        }
       ]
     },
     "Vaquilla Engorda": {
@@ -1512,6 +2676,394 @@
           "minimo": 2128,
           "maximo": 2350,
           "observado": null
+        }
+      ],
+      "proyeccion_mensual_2026": [
+        {
+          "mes": "2026-01",
+          "estimado": 2177,
+          "minimo": 2069,
+          "maximo": 2284,
+          "observado": 2470,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2018,
+          "minimo": 1918,
+          "maximo": 2118,
+          "observado": 2521,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 1920,
+          "minimo": 1825,
+          "maximo": 2016,
+          "observado": 2740,
+          "semanas_observadas": 2
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 1870,
+          "minimo": 1776,
+          "maximo": 1962,
+          "observado": 2654,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 1841,
+          "minimo": 1749,
+          "maximo": 1932,
+          "observado": 2546,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 1846,
+          "minimo": 1755,
+          "maximo": 1938,
+          "observado": 2650,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 1904,
+          "minimo": 1810,
+          "maximo": 1999,
+          "observado": 2599,
+          "semanas_observadas": 4
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2014,
+          "minimo": 1914,
+          "maximo": 2113,
+          "observado": 2700,
+          "semanas_observadas": 3
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2118,
+          "minimo": 2013,
+          "maximo": 2223,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2210,
+          "minimo": 2100,
+          "maximo": 2319,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2257,
+          "minimo": 2145,
+          "maximo": 2369,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2243,
+          "minimo": 2132,
+          "maximo": 2354,
+          "observado": null,
+          "semanas_observadas": 0
+        }
+      ],
+      "proyeccion_mensual_2026_2028": [
+        {
+          "mes": "2026-01",
+          "estimado": 2177,
+          "minimo": 2069,
+          "maximo": 2284,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-02",
+          "estimado": 2018,
+          "minimo": 1918,
+          "maximo": 2118,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-03",
+          "estimado": 1920,
+          "minimo": 1825,
+          "maximo": 2016,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-04",
+          "estimado": 1870,
+          "minimo": 1776,
+          "maximo": 1962,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-05",
+          "estimado": 1841,
+          "minimo": 1749,
+          "maximo": 1932,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-06",
+          "estimado": 1846,
+          "minimo": 1755,
+          "maximo": 1938,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-07",
+          "estimado": 1904,
+          "minimo": 1810,
+          "maximo": 1999,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-08",
+          "estimado": 2014,
+          "minimo": 1914,
+          "maximo": 2113,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-09",
+          "estimado": 2118,
+          "minimo": 2013,
+          "maximo": 2223,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-10",
+          "estimado": 2210,
+          "minimo": 2100,
+          "maximo": 2319,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-11",
+          "estimado": 2257,
+          "minimo": 2145,
+          "maximo": 2369,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2026-12",
+          "estimado": 2243,
+          "minimo": 2132,
+          "maximo": 2354,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-01",
+          "estimado": 2136,
+          "minimo": 2030,
+          "maximo": 2242,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-02",
+          "estimado": 1990,
+          "minimo": 1891,
+          "maximo": 2088,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-03",
+          "estimado": 1901,
+          "minimo": 1806,
+          "maximo": 1995,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-04",
+          "estimado": 1856,
+          "minimo": 1764,
+          "maximo": 1949,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-05",
+          "estimado": 1829,
+          "minimo": 1738,
+          "maximo": 1919,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-06",
+          "estimado": 1832,
+          "minimo": 1742,
+          "maximo": 1924,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-07",
+          "estimado": 1884,
+          "minimo": 1790,
+          "maximo": 1977,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-08",
+          "estimado": 1982,
+          "minimo": 1884,
+          "maximo": 2080,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-09",
+          "estimado": 2097,
+          "minimo": 1993,
+          "maximo": 2201,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-10",
+          "estimado": 2186,
+          "minimo": 2078,
+          "maximo": 2294,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-11",
+          "estimado": 2253,
+          "minimo": 2141,
+          "maximo": 2364,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2027-12",
+          "estimado": 2248,
+          "minimo": 2136,
+          "maximo": 2359,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-01",
+          "estimado": 2117,
+          "minimo": 2012,
+          "maximo": 2222,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-02",
+          "estimado": 1965,
+          "minimo": 1867,
+          "maximo": 2062,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-03",
+          "estimado": 1892,
+          "minimo": 1798,
+          "maximo": 1986,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-04",
+          "estimado": 1856,
+          "minimo": 1764,
+          "maximo": 1949,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-05",
+          "estimado": 1829,
+          "minimo": 1738,
+          "maximo": 1919,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-06",
+          "estimado": 1832,
+          "minimo": 1742,
+          "maximo": 1924,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-07",
+          "estimado": 1892,
+          "minimo": 1798,
+          "maximo": 1986,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-08",
+          "estimado": 1996,
+          "minimo": 1898,
+          "maximo": 2096,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-09",
+          "estimado": 2097,
+          "minimo": 1993,
+          "maximo": 2201,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-10",
+          "estimado": 2196,
+          "minimo": 2087,
+          "maximo": 2305,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-11",
+          "estimado": 2257,
+          "minimo": 2145,
+          "maximo": 2369,
+          "observado": null,
+          "semanas_observadas": 0
+        },
+        {
+          "mes": "2028-12",
+          "estimado": 2248,
+          "minimo": 2136,
+          "maximo": 2359,
+          "observado": null,
+          "semanas_observadas": 0
         }
       ]
     }

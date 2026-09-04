@@ -31,6 +31,7 @@ CATEGORIAS = (
     "Vaquilla Engorda",
 )
 SEMANAS_FUTURAS = 4
+SEMANAS_ESCENARIO_LARGO = 156
 INICIO_ENTRENAMIENTO_VALIDACION = date(2024, 1, 1)
 FIN_ENTRENAMIENTO_VALIDACION = date(2025, 12, 31)
 ANIO_VALIDACION = 2026
@@ -132,6 +133,36 @@ def proyeccion(serie: list[tuple[date, float]]) -> dict[str, object]:
     }
 
 
+def resumen_mensual(
+    pronosticos: list[dict[str, object]], observados: dict[date, float]
+) -> list[dict[str, object]]:
+    """Agrupa proyecciones semanales en promedios mensuales comparables."""
+    por_mes: dict[str, dict[str, list[float]]] = {}
+    for fila in pronosticos:
+        fecha = date.fromisoformat(str(fila["fecha"]))
+        mes = fecha.strftime("%Y-%m")
+        grupo = por_mes.setdefault(
+            mes, {"estimado": [], "minimo": [], "maximo": [], "observado": []}
+        )
+        grupo["estimado"].append(float(fila["estimado"]))
+        grupo["minimo"].append(float(fila["minimo"]))
+        grupo["maximo"].append(float(fila["maximo"]))
+        if fecha in observados:
+            grupo["observado"].append(observados[fecha])
+
+    return [
+        {
+            "mes": mes,
+            "estimado": round(mean(grupo["estimado"])),
+            "minimo": round(mean(grupo["minimo"])),
+            "maximo": round(mean(grupo["maximo"])),
+            "observado": round(mean(grupo["observado"])) if grupo["observado"] else None,
+            "semanas_observadas": len(grupo["observado"]),
+        }
+        for mes, grupo in sorted(por_mes.items())
+    ]
+
+
 def validacion_2026(serie: list[tuple[date, float]]) -> dict[str, object]:
     """Simula 2026 con información disponible sólo hasta el 31-12-2025."""
     entrenamiento = [
@@ -144,6 +175,7 @@ def validacion_2026(serie: list[tuple[date, float]]) -> dict[str, object]:
         raise RuntimeError("La validación 2026 requiere al menos 12 semanas de 2024-2025.")
 
     pronosticos, amplitud = pronosticar(entrenamiento, 52)
+    escenario_largo, _ = pronosticar(entrenamiento, SEMANAS_ESCENARIO_LARGO)
     comparables = [
         (fila, observados[date.fromisoformat(str(fila["fecha"]))])
         for fila in pronosticos
@@ -173,6 +205,8 @@ def validacion_2026(serie: list[tuple[date, float]]) -> dict[str, object]:
         "error_pct_abs_medio": round(mean(errores_pct) * 100, 1) if errores_pct else None,
         "cobertura_rango_pct": round(mean(dentro_rango) * 100, 1) if dentro_rango else None,
         "proyeccion_y_observado": filas,
+        "proyeccion_mensual_2026": resumen_mensual(pronosticos, observados),
+        "proyeccion_mensual_2026_2028": resumen_mensual(escenario_largo, {}),
     }
 
 

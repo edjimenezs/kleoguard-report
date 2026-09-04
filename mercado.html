@@ -136,6 +136,22 @@
       <p class="model-warning" id="validation-warning">—</p>
     </section>
 
+    <section class="panel" aria-labelledby="monthly-2026-title">
+      <p class="eyebrow">Resumen mensual · validación histórica</p>
+      <h2 id="monthly-2026-title">Proyección de 2026 por mes</h2>
+      <p id="monthly-2026-description">Cargando comparación mensual…</p>
+      <div class="chart forecast-chart" id="monthly-2026-chart" aria-label="Comparación mensual de proyección y precio observado en 2026"></div>
+      <p class="model-warning">Cada punto es el promedio simple de las semanas proyectadas dentro del mes; no corresponde al precio de una liquidación ni a un promedio ponderado por kilos.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="monthly-horizon-title">
+      <p class="eyebrow">Escenario de largo plazo · experimental</p>
+      <h2 id="monthly-horizon-title">Proyección anual por mes hasta 2028</h2>
+      <p id="monthly-horizon-description">Cargando escenario mensual…</p>
+      <div class="chart forecast-chart" id="monthly-horizon-chart" aria-label="Escenario mensual anual hasta 2028"></div>
+      <p class="model-warning"><strong>Horizonte largo:</strong> 2027 y 2028 son proyecciones recursivas generadas desde el corte de 2025. La incertidumbre crece con cada mes y no deben interpretarse como valores de mercado futuros.</p>
+    </section>
+
     <section class="panel" aria-labelledby="modelo-title">
       <p class="eyebrow">Cómo se calcula</p>
       <h2 id="modelo-title">Una estimación simple y comprobable</h2>
@@ -191,8 +207,9 @@
     const CLP = new Intl.NumberFormat('es-CL', {style:'currency', currency:'CLP', maximumFractionDigits:0});
     const fechaLarga = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'numeric', month:'long', year:'numeric'}) : 'sin dato';
     const fechaCorta = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('es-CL', {day:'2-digit', month:'2-digit'}) : '—';
+    const mesCorto = value => value ? new Date(value + '-15T12:00:00').toLocaleDateString('es-CL', {month:'short'}) : '—';
     const byId = id => document.getElementById(id);
-    let mercado, contexto, pronosticos, validaciones, chartHistory, chartComparison, chartForecast, chartValidation;
+    let mercado, contexto, pronosticos, validaciones, chartHistory, chartComparison, chartForecast, chartValidation, chartMonthly2026, chartMonthlyHorizon;
     function ultimo(serie) { return serie && serie.length ? serie[serie.length - 1] : null; }
     function writeMetric(prefix, item) {
       byId(prefix + '-price').textContent = item ? CLP.format(item.valor) + '/kg' : 'Sin dato';
@@ -284,6 +301,34 @@
       }, true);
       const mensaje = observados.length ? 'Con las ' + observados.length + ' semanas 2026 comparables disponibles, este ensayo muestra el desempeño real de una proyección anual generada sin conocer 2026.' : 'Todavía no existen semanas comparables de 2026 en la fuente pública.';
       byId('validation-warning').innerHTML = '<strong>Lectura correcta:</strong> ' + mensaje + ' No es una proyección que se haya actualizado con los precios de 2026; por eso permite detectar si la regla aporta valor antes de usarla para una decisión.';
+      renderMonthlyProjections(categoria, validation);
+    }
+    function renderMonthlyProjections(categoria, validation) {
+      const monthly2026 = validation.proyeccion_mensual_2026 || [];
+      const monthlyHorizon = validation.proyeccion_mensual_2026_2028 || [];
+      byId('monthly-2026-title').textContent = 'Proyección de 2026 por mes · ' + categoria;
+      byId('monthly-2026-description').textContent = 'La línea verde resume la simulación hecha con datos hasta el ' + fechaLarga(validation.corte_entrenamiento) + '. La azul usa sólo las jornadas 2026 publicadas después para contrastar el resultado.';
+      chartMonthly2026.setOption({
+        animationDuration:450, grid:{left:72,right:22,top:34,bottom:58},
+        tooltip:{trigger:'axis', formatter:params => { const row=monthly2026[params[0].dataIndex]; return '<strong>' + fechaLarga(row.mes + '-01') + '</strong><br>Proyección: ' + CLP.format(row.estimado) + '/kg<br>Observado: ' + (row.observado === null ? 'sin jornada publicada' : CLP.format(row.observado) + '/kg (' + row.semanas_observadas + ' semana(s))') + '<br>Rango promedio: ' + CLP.format(row.minimo) + ' a ' + CLP.format(row.maximo) + '/kg'; }},
+        legend:{bottom:0}, xAxis:{type:'category',data:monthly2026.map(row=>mesCorto(row.mes))},
+        yAxis:{type:'value',axisLabel:{formatter:value=>CLP.format(value)},splitLine:{lineStyle:{color:'#e7ddc9'}}},
+        series:[
+          {name:'Rango inferior',type:'line',data:monthly2026.map(row=>row.minimo),symbol:'none',lineStyle:{type:'dashed',width:1.5,color:'#b08042'}},
+          {name:'Rango superior',type:'line',data:monthly2026.map(row=>row.maximo),symbol:'none',lineStyle:{type:'dashed',width:1.5,color:'#b08042'}},
+          {name:'Proyección 2026',type:'line',data:monthly2026.map(row=>row.estimado),smooth:.18,symbolSize:7,lineStyle:{width:3,color:'#4e753f'},itemStyle:{color:'#4e753f'}},
+          {name:'Observado 2026',type:'line',data:monthly2026.map(row=>row.observado),connectNulls:false,symbolSize:7,lineStyle:{width:2.5,color:'#285f89'},itemStyle:{color:'#285f89'}}
+        ]
+      }, true);
+      const years = [2026, 2027, 2028];
+      byId('monthly-horizon-title').textContent = 'Proyección anual por mes hasta 2028 · ' + categoria;
+      byId('monthly-horizon-description').textContent = 'Mismo modelo y mismo corte al ' + fechaLarga(validation.corte_entrenamiento) + '. Cada curva representa los promedios semanales estimados de un año; no incorpora precios observados de 2026, 2027 ni 2028.';
+      chartMonthlyHorizon.setOption({
+        animationDuration:450, grid:{left:72,right:22,top:34,bottom:58}, tooltip:{trigger:'axis', valueFormatter:value=>CLP.format(value)+'/kg'}, legend:{bottom:0},
+        xAxis:{type:'category',data:['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic']},
+        yAxis:{type:'value',axisLabel:{formatter:value=>CLP.format(value)},splitLine:{lineStyle:{color:'#e7ddc9'}}},
+        series:years.map((year, index) => ({name:String(year),type:'line',data:monthlyHorizon.filter(row=>row.mes.startsWith(String(year))).map(row=>row.estimado),smooth:.18,symbolSize:7,lineStyle:{width:3,color:['#4e753f','#a7783d','#285f89'][index]},itemStyle:{color:['#4e753f','#a7783d','#285f89'][index]}}))
+      }, true);
     }
     function renderContexto() {
       byId('contexto-intro').textContent = contexto.alcance + ' Estas señales ayudan a entender el entorno, pero todavía no modifican el cálculo experimental de Cleo.';
@@ -307,8 +352,8 @@
         const fecha = fechaLarga(mercado.ultima_jornada_publicada);
         byId('notice').innerHTML = '<strong>Dato oficial más reciente:</strong> la última jornada publicada encontrada es el ' + fecha + '. La pantalla no presenta un precio de hoy si Tattersall, Fegosa o AFECH aún no han publicado un remate posterior.';
         byId('source').textContent = mercado.metodo + ' Actualizado automáticamente: ' + new Date(mercado.actualizado_en_utc).toLocaleString('es-CL') + '.';
-        chartHistory = echarts.init(byId('history-chart')); chartComparison = echarts.init(byId('comparison-chart')); chartForecast = echarts.init(byId('forecast-chart')); chartValidation = echarts.init(byId('validation-chart'));
-        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize(); chartForecast.resize(); chartValidation.resize();}); render(); renderContexto();
+        chartHistory = echarts.init(byId('history-chart')); chartComparison = echarts.init(byId('comparison-chart')); chartForecast = echarts.init(byId('forecast-chart')); chartValidation = echarts.init(byId('validation-chart')); chartMonthly2026 = echarts.init(byId('monthly-2026-chart')); chartMonthlyHorizon = echarts.init(byId('monthly-horizon-chart'));
+        selector.addEventListener('change', render); byId('serie').addEventListener('change', render); window.addEventListener('resize', () => {chartHistory.resize(); chartComparison.resize(); chartForecast.resize(); chartValidation.resize(); chartMonthly2026.resize(); chartMonthlyHorizon.resize();}); render(); renderContexto();
       } catch (error) { byId('notice').textContent = 'No fue posible cargar la fotografía pública de mercado. Reintenta en unos minutos.'; console.error(error); }
     }
     iniciar();
