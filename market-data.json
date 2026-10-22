@@ -2,8 +2,9 @@
   "fuente": "ODEPA / Asociación Gremial de Ferias Ganaderas de Chile (AFECH)",
   "metodo": "Precio promedio por kilo de los 5 primeros precios según feria, nominal sin IVA. KleoGuard calcula un promedio simple de las ferias por jornada.",
   "serie_desde": "2022-01-01",
-  "ultima_jornada_publicada": "2026-09-01",
+  "ultima_jornada_publicada": "2026-10-20",
   "boletines_consultados": [
+    "https://bibliotecadigital.odepa.gob.cl/bitstreams/4fc51741-0154-4276-93e7-6e6edb3b4e8b/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/8e793d86-5194-4aee-afae-18916879907d/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/88166237-3f9f-42ac-8425-0e1e4a32323a/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/efef8f47-e367-430b-bb97-403bac263f5c/download",
@@ -12,8 +13,7 @@
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/ad5d1b19-9661-4c8b-b633-49ee36484e8e/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/a7ba84cc-0967-41d4-a143-280e18b77682/download",
     "https://bibliotecadigital.odepa.gob.cl/bitstreams/61ed8ed4-0ca5-4985-8ef3-a2e86cc7c5ae/download",
-    "https://bibliotecadigital.odepa.gob.cl/bitstreams/1ee38faa-f0f6-4242-adbe-ddf9bd9e0b9e/download",
-    "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin-semanal-Afech_20260630.xlsx"
+    "https://bibliotecadigital.odepa.gob.cl/bitstreams/1ee38faa-f0f6-4242-adbe-ddf9bd9e0b9e/download"
   ],
   "advertencias": [],
   "categorias": {
@@ -6518,6 +6518,36 @@
           "fecha": "2026-09-01",
           "valor": 3325,
           "ferias": 4
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 2943,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2554,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2754,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 2943,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 3173,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 3004,
+          "ferias": 4
         }
       ],
       "tattersall": [
@@ -11820,6 +11850,31 @@
           "fecha": "2026-09-01",
           "valor": 3128,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 2962,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 3053,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2750,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 3334,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 2648,
+          "ferias": 2
         }
       ],
       "fegosa": [
@@ -15542,21 +15597,36 @@
           "fecha": "2026-09-01",
           "valor": 2731,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 2793,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2211,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2988,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-09-01",
-        "valor": 3325,
+        "fecha": "2026-10-20",
+        "valor": 3004,
         "ferias": 4
       },
       "ultimo_tattersall": {
-        "fecha": "2026-09-01",
-        "valor": 3128,
-        "ferias": 1
+        "fecha": "2026-10-20",
+        "valor": 2648,
+        "ferias": 2
       },
       "ultimo_fegosa": {
-        "fecha": "2026-09-01",
-        "valor": 2731,
+        "fecha": "2026-10-19",
+        "valor": 2988,
         "ferias": 1
       }
     },
@@ -22096,6 +22166,36 @@
           "fecha": "2026-09-01",
           "valor": 2798,
           "ferias": 4
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 3065,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 3013,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 3136,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 3128,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 3026,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 2973,
+          "ferias": 4
         }
       ],
       "tattersall": [
@@ -27473,6 +27573,31 @@
           "fecha": "2026-09-01",
           "valor": 2762,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 2844,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 3141,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 3296,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 3096,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 2811,
+          "ferias": 2
         }
       ],
       "fegosa": [
@@ -31755,21 +31880,36 @@
           "fecha": "2026-09-01",
           "valor": 2693,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 3191,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2676,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2872,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-09-01",
-        "valor": 2798,
+        "fecha": "2026-10-20",
+        "valor": 2973,
         "ferias": 4
       },
       "ultimo_tattersall": {
-        "fecha": "2026-09-01",
-        "valor": 2762,
-        "ferias": 1
+        "fecha": "2026-10-20",
+        "valor": 2811,
+        "ferias": 2
       },
       "ultimo_fegosa": {
-        "fecha": "2026-09-01",
-        "valor": 2693,
+        "fecha": "2026-10-19",
+        "valor": 2872,
         "ferias": 1
       }
     },
@@ -39795,6 +39935,36 @@
           "fecha": "2026-09-01",
           "valor": 3190,
           "ferias": 4
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 2925,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2762,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2681,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 2910,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 3108,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 3101,
+          "ferias": 3
         }
       ],
       "tattersall": [
@@ -45152,6 +45322,31 @@
           "fecha": "2026-09-01",
           "valor": 3223,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 3062,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2803,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2679,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 3308,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 2645,
+          "ferias": 2
         }
       ],
       "fegosa": [
@@ -49589,21 +49784,36 @@
           "fecha": "2026-09-01",
           "valor": 2642,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 2940,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2638,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2976,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-09-01",
-        "valor": 3190,
-        "ferias": 4
+        "fecha": "2026-10-20",
+        "valor": 3101,
+        "ferias": 3
       },
       "ultimo_tattersall": {
-        "fecha": "2026-09-01",
-        "valor": 3223,
-        "ferias": 1
+        "fecha": "2026-10-20",
+        "valor": 2645,
+        "ferias": 2
       },
       "ultimo_fegosa": {
-        "fecha": "2026-09-01",
-        "valor": 2642,
+        "fecha": "2026-10-19",
+        "valor": 2976,
         "ferias": 1
       }
     },
@@ -56143,6 +56353,36 @@
           "fecha": "2026-09-01",
           "valor": 2663,
           "ferias": 4
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 3057,
+          "ferias": 4
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 3018,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2965,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-17",
+          "valor": 2971,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2768,
+          "ferias": 6
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 2921,
+          "ferias": 4
         }
       ],
       "tattersall": [
@@ -61495,6 +61735,31 @@
           "fecha": "2026-09-01",
           "valor": 2204,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 2999,
+          "ferias": 2
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 2530,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-16",
+          "valor": 2935,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2688,
+          "ferias": 3
+        },
+        {
+          "fecha": "2026-10-20",
+          "valor": 2886,
+          "ferias": 2
         }
       ],
       "fegosa": [
@@ -65947,21 +66212,36 @@
           "fecha": "2026-09-01",
           "valor": 2724,
           "ferias": 1
+        },
+        {
+          "fecha": "2026-10-14",
+          "valor": 3258,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-15",
+          "valor": 3020,
+          "ferias": 1
+        },
+        {
+          "fecha": "2026-10-19",
+          "valor": 2757,
+          "ferias": 1
         }
       ],
       "ultimo_nacional": {
-        "fecha": "2026-09-01",
-        "valor": 2663,
+        "fecha": "2026-10-20",
+        "valor": 2921,
         "ferias": 4
       },
       "ultimo_tattersall": {
-        "fecha": "2026-09-01",
-        "valor": 2204,
-        "ferias": 1
+        "fecha": "2026-10-20",
+        "valor": 2886,
+        "ferias": 2
       },
       "ultimo_fegosa": {
-        "fecha": "2026-09-01",
-        "valor": 2724,
+        "fecha": "2026-10-19",
+        "valor": 2757,
         "ferias": 1
       }
     },
@@ -68260,5 +68540,5 @@
       }
     }
   },
-  "actualizado_en_utc": "2026-09-02T21:04:37+00:00"
+  "actualizado_en_utc": "2026-10-22T21:37:13+00:00"
 }
