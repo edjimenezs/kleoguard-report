@@ -4,133 +4,133 @@
   "estado": "experimental",
   "categorias": {
     "Novillo Gordo": {
-      "corte_historia": "2026-10-26",
-      "filas_historia": 240,
+      "corte_historia": "2026-11-02",
+      "filas_historia": 241,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
       "variacion_referencia_pct": 5.4,
-      "ultimo_observado": 3062,
+      "ultimo_observado": 3222,
       "pronosticos": [
         {
-          "fecha": "2026-11-02",
-          "estimado": 2925,
-          "minimo": 2766,
-          "maximo": 3084
-        },
-        {
           "fecha": "2026-11-09",
-          "estimado": 2823,
-          "minimo": 2670,
-          "maximo": 2976
+          "estimado": 3010,
+          "minimo": 2847,
+          "maximo": 3173
         },
         {
           "fecha": "2026-11-16",
-          "estimado": 2762,
-          "minimo": 2612,
-          "maximo": 2912
+          "estimado": 2895,
+          "minimo": 2738,
+          "maximo": 3052
         },
         {
           "fecha": "2026-11-23",
-          "estimado": 2722,
-          "minimo": 2574,
-          "maximo": 2870
+          "estimado": 2830,
+          "minimo": 2676,
+          "maximo": 2984
+        },
+        {
+          "fecha": "2026-11-30",
+          "estimado": 2778,
+          "minimo": 2627,
+          "maximo": 2929
         }
       ]
     },
     "Novillo Engorda": {
-      "corte_historia": "2026-10-26",
-      "filas_historia": 240,
+      "corte_historia": "2026-11-02",
+      "filas_historia": 241,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
       "variacion_referencia_pct": 4.4,
-      "ultimo_observado": 3044,
+      "ultimo_observado": 3014,
       "pronosticos": [
         {
-          "fecha": "2026-11-02",
-          "estimado": 2906,
-          "minimo": 2779,
-          "maximo": 3033
-        },
-        {
           "fecha": "2026-11-09",
-          "estimado": 2831,
-          "minimo": 2707,
-          "maximo": 2955
+          "estimado": 2909,
+          "minimo": 2782,
+          "maximo": 3036
         },
         {
           "fecha": "2026-11-16",
+          "estimado": 2833,
+          "minimo": 2709,
+          "maximo": 2957
+        },
+        {
+          "fecha": "2026-11-23",
           "estimado": 2768,
           "minimo": 2647,
           "maximo": 2889
         },
         {
-          "fecha": "2026-11-23",
-          "estimado": 2707,
-          "minimo": 2588,
-          "maximo": 2826
+          "fecha": "2026-11-30",
+          "estimado": 2704,
+          "minimo": 2586,
+          "maximo": 2822
         }
       ]
     },
     "Vaquilla Gorda": {
-      "corte_historia": "2026-10-26",
-      "filas_historia": 240,
+      "corte_historia": "2026-11-02",
+      "filas_historia": 241,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
       "variacion_referencia_pct": 5.8,
-      "ultimo_observado": 2982,
+      "ultimo_observado": 3108,
       "pronosticos": [
         {
-          "fecha": "2026-11-02",
-          "estimado": 2866,
-          "minimo": 2700,
-          "maximo": 3032
-        },
-        {
           "fecha": "2026-11-09",
-          "estimado": 2777,
-          "minimo": 2616,
-          "maximo": 2938
+          "estimado": 2929,
+          "minimo": 2759,
+          "maximo": 3099
         },
         {
           "fecha": "2026-11-16",
-          "estimado": 2718,
-          "minimo": 2561,
-          "maximo": 2875
+          "estimado": 2826,
+          "minimo": 2662,
+          "maximo": 2990
         },
         {
           "fecha": "2026-11-23",
-          "estimado": 2669,
-          "minimo": 2515,
-          "maximo": 2823
+          "estimado": 2757,
+          "minimo": 2597,
+          "maximo": 2917
+        },
+        {
+          "fecha": "2026-11-30",
+          "estimado": 2710,
+          "minimo": 2553,
+          "maximo": 2867
         }
       ]
     },
     "Vaquilla Engorda": {
-      "corte_historia": "2026-10-26",
-      "filas_historia": 240,
+      "corte_historia": "2026-11-02",
+      "filas_historia": 241,
       "modelo": "Referencia experimental: último precio, tendencia de 4 semanas y estacionalidad semanal.",
       "variacion_referencia_pct": 5.1,
-      "ultimo_observado": 2814,
+      "ultimo_observado": 2824,
       "pronosticos": [
         {
-          "fecha": "2026-11-02",
-          "estimado": 2725,
-          "minimo": 2586,
-          "maximo": 2864
-        },
-        {
           "fecha": "2026-11-09",
-          "estimado": 2666,
-          "minimo": 2530,
-          "maximo": 2802
+          "estimado": 2743,
+          "minimo": 2603,
+          "maximo": 2883
         },
         {
           "fecha": "2026-11-16",
-          "estimado": 2605,
-          "minimo": 2472,
-          "maximo": 2738
+          "estimado": 2673,
+          "minimo": 2537,
+          "maximo": 2809
         },
         {
           "fecha": "2026-11-23",
-          "estimado": 2540,
-          "minimo": 2410,
+          "estimado": 2607,
+          "minimo": 2474,
+          "maximo": 2740
+        },
+        {
+          "fecha": "2026-11-30",
+          "estimado": 2541,
+          "minimo": 2412,
           "maximo": 2670
         }
       ]
